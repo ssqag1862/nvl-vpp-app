@@ -1,0 +1,131 @@
+{
+  "MIỀN BẮC": {
+    "SÔNG ĐÀ": {
+      "loai": "chi_nhanh",
+      "phong_ban": [
+        "KẾ TOÁN",
+        "PHÁP CHẾ",
+        "P. HÀNH CHÍNH NS",
+        "DVKH",
+        "KINH DOANH",
+        "BIỂN",
+        "ĐÀO TẠO"
+      ]
+    },
+    "HÀ NỘI": {
+      "loai": "thanh_pho",
+      "don_vi": {
+        "CẦU GIẤY + HMI": {
+          "loai": "van_phong"
+        },
+        "ĐÓNG HÀNG": {
+          "loai": "phong_ban"
+        },
+        "KIỂM SOÁT": {
+          "loai": "phong_ban"
+        },
+        "CSKH": {
+          "loai": "phong_ban"
+        },
+        "LÁI XE": {
+          "loai": "phong_ban"
+        },
+        "GIAO DỊCH": {
+          "loai": "phong_ban"
+        },
+        "KHO PANA HNI": {
+          "loai": "kho"
+        },
+        "PANA ĐÔNG ANH": {
+          "loai": "kho"
+        },
+        "KẾ TOÁN HN": {
+          "loai": "phong_ban"
+        },
+        "TEAM LG": {
+          "loai": "team"
+        },
+        "TEAM BEKO": {
+          "loai": "team"
+        },
+        "TRẠM SAMSUNG": {
+          "loai": "tram"
+        },
+        "HAI BÀ TRƯNG": {
+          "loai": "chi_nhanh"
+        },
+        "HNI": {
+          "loai": "chi_nhanh"
+        }
+      }
+    },
+    "CÁC TỈNH MIỀN BẮC": {
+      "loai": "nhom_tinh",
+      "tinh_thanh": [
+        "BẮC NINH",
+        "SS TÂN HỒNG",
+        "HÀ NAM",
+        "HẢI DƯƠNG",
+        "HẢI PHÒNG",
+        "HƯNG YÊN",
+        "NAM ĐỊNH",
+        "NGHỆ AN",
+        "PODS MB",
+        "THANH HÓA",
+        "BẮC GIANG",
+        "QUẢNG NINH",
+        "VĨNH PHÚC",
+        "THÁI NGUYÊN"
+      ]
+    },
+    "TT1 (TRUNG TÂM 1)": {
+      "loai": "trung_tam",
+      "phong_ban": [
+        "HCNS",
+        "ĐÓNG HÀNG TT1",
+        "TỔ LÀM ĐÊM",
+        "KS CA NGÀY",
+        "LÁI XE",
+        "KHO LB"
+      ]
+    }
+  },
+  "MIỀN TRUNG & MIỀN NAM": {
+    "POD MIỀN NAM": {
+      "loai": "nhom_chi_nhanh",
+      "chi_nhanh": [
+        "BC Q.GV",
+        "BCQ12",
+        "ĐÔNG NAM BỘ",
+        "TÂY NAM BỘ"
+      ]
+    },
+    "LONG AN": {
+      "loai": "tinh",
+      "ghi_chu": "LONG HẬU - chi nhánh tại Long An"
+    },
+    "TIỀN GIANG": {
+      "loai": "tinh"
+    },
+    "VĂN PHÒNG HCM": {
+      "loai": "van_phong_chinh",
+      "phong_ban": [
+        "VPP CHUNG",
+        "HCNS",
+        "KẾ TOÁN",
+        "CSKH",
+        "KINH DOANH",
+        "PHÁP CHẾ"
+      ]
+    },
+    "MIỀN TÂY": {
+      "loai": "nhom_tinh",
+      "chi_nhanh": [
+        "TT4",
+        "CẦN THƠ",
+        "KIÊN GIANG",
+        "ĐTTH"
+      ]
+    }
+  }
+}

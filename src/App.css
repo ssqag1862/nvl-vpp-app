@@ -1,0 +1,119 @@
+:root {
+  --bg: #060d16;
+  --surface: #0c1922;
+  --surface2: #112030;
+  --surface3: #172a3e;
+  --border: #1e3650;
+  --text: #e2e8f0;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --accent: #00a651;
+  --accent2: #34c974;
+  --accent-dim: rgba(0, 166, 81, 0.12);
+  --mb: #3b82f6;
+  --mt: #10b981;
+  --mn: #f97316;
+  --danger: #ef4444;
+  --success: #22c55e;
+  --radius: 10px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.content {
+  flex: 1;
+  padding: 24px 28px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+/* === FAB === */
+.cart-fab {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, var(--accent), #007a3d);
+  border: none;
+  color: #ffffff;
+  font-size: 22px;
+  cursor: pointer;
+  box-shadow: 0 6px 24px rgba(0, 166, 81, 0.4);
+  z-index: 150;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.cart-fab:hover {
+  transform: scale(1.08);
+}
+
+.fab-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  background: var(--danger);
+  color: #fff;
+  border-radius: 11px;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* === SCROLLBAR === */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--surface3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text3);
+}
+
+.loading-screen {
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-text {
+  color: var(--text2);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 900px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .content {
+    padding: 16px;
+  }
+}

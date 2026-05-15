@@ -1,0 +1,34 @@
+.drop-zone {
+  border: 2px dashed var(--border);
+  border-radius: var(--radius);
+  padding: 40px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+  background: var(--surface);
+}
+
+.drop-zone:hover,
+.drop-zone.drag-over {
+  border-color: var(--accent);
+  background: var(--accent-dim);
+}
+
+.drop-zone-icon {
+  font-size: 36px;
+  margin-bottom: 12px;
+  opacity: 0.4;
+}
+
+.drop-zone p {
+  color: var(--text3);
+  font-size: 13px;
+}
+
+.drop-zone .file-name {
+  color: var(--accent);
+  font-weight: 600;
+  margin-top: 8px;
+  font-size: 14px;
+}

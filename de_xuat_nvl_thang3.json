@@ -1,0 +1,782 @@
+[
+  {
+    "loai": "NVL",
+    "ten_sp": "PE",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Băng keo lê nguyên",
+    "khoan_muc": "MÀNG CO PE",
+    "gia_cu": 172000,
+    "gia_moi": 260000,
+    "phan_bo": {
+      "BC Q.GV": 12,
+      "BCQ12": 4,
+      "LONG HẬU": 50,
+      "TIỀN GIANG": 2
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "BĂNG KEO ( TRONG)",
+    "dvt": "Cuộn",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Băng keo lê nguyên",
+    "khoan_muc": "BĂNG DÍNH",
+    "gia_cu": 7800,
+    "gia_moi": 11600,
+    "phan_bo": {
+      "BC Q.GV": 82,
+      "BCQ12": 24,
+      "POD ĐNB": 2,
+      "POD TNB": 4,
+      "LONG HẬU": 254,
+      "TIỀN GIANG": 6,
+      "MIỀN TÂY - TT4": 12,
+      "MIỀN TÂY - KIÊN GIANG": 6
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "BĂNG KEO DỄ VỠ",
+    "dvt": "Cuộn",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Băng keo lê nguyên",
+    "khoan_muc": "BĂNG DÍNH",
+    "gia_cu": 12500,
+    "gia_moi": 16000,
+    "phan_bo": {
+      "MIỀN TÂY - KIÊN GIANG": 6
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "Xốp hạt 1m4x100m",
+    "dvt": "Cuộn/100m",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Băng keo lê nguyên",
+    "khoan_muc": "DỤNG CỤ ĐÓNG HÀNG",
+    "gia_cu": 360000,
+    "gia_moi": 420000,
+    "phan_bo": {
+      "BCQ12": 2
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "BĂNG KEO NETCO",
+    "dvt": "Cuộn",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "HN nhập",
+    "khoan_muc": "BĂNG DÍNH",
+    "gia_cu": 19100,
+    "gia_moi": 19100,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "BILL NETCO (3 liên)",
+    "dvt": "Bộ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Bill liên sơn",
+    "khoan_muc": "BILL",
+    "gia_cu": 470,
+    "gia_moi": 470,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "Giấy Carbonless khổ 210-4L (W,P,Y,B)",
+    "dvt": "Thùng",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Bill liên sơn",
+    "khoan_muc": "BILL",
+    "gia_cu": 295000,
+    "gia_moi": 310000,
+    "phan_bo": {
+      "LONG HẬU": 5
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "PHONG BÌ LỚN ( xanh)",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Khải An",
+    "khoan_muc": "PHONG BÌ",
+    "gia_cu": 950,
+    "gia_moi": 950,
+    "phan_bo": {
+      "BC Q.GV": 12000,
+      "POD ĐNB": 100,
+      "POD TNB": 200,
+      "TIỀN GIANG": 100
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "PHONG BÌ NHỎ ( xanh)",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Khải An",
+    "khoan_muc": "PHONG BÌ",
+    "gia_cu": 475,
+    "gia_moi": 475,
+    "phan_bo": {
+      "BC Q.GV": 3500,
+      "TIỀN GIANG": 100
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "PHONG BÌ NHỎ SAMSUNG Q9 ( trắng)",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Khải An",
+    "khoan_muc": "",
+    "gia_cu": 200,
+    "gia_moi": 200,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "PHONG BÌ XÁM",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Khải An",
+    "khoan_muc": "PHONG BÌ",
+    "gia_cu": 2400,
+    "gia_moi": 2400,
+    "phan_bo": {
+      "BC Q.GV": 300
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "BỊCH BÓNG 17cm*27cm (A5)",
+    "dvt": "Kg",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Tuấn Hoan",
+    "khoan_muc": "NILONG",
+    "gia_cu": 39000,
+    "gia_moi": 60000,
+    "phan_bo": {
+      "BC Q.GV": 10,
+      "BCQ12": 10,
+      "TIỀN GIANG": 1,
+      "MIỀN TÂY - TT4": 2,
+      "MIỀN TÂY - KIÊN GIANG": 2
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "BỊCH BÓNG 25cm*35cm (A4)",
+    "dvt": "Kg",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Tuấn Hoan",
+    "khoan_muc": "NILONG",
+    "gia_cu": 39000,
+    "gia_moi": 60000,
+    "phan_bo": {
+      "LONG HẬU": 50
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "Bao Tải 1,2M * 90Cm",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Tuấn Hoan",
+    "khoan_muc": "BAO TẢI",
+    "gia_cu": 4100,
+    "gia_moi": 4500,
+    "phan_bo": {
+      "BC Q.GV": 200,
+      "BCQ12": 50
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "TEM BACODE",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Minh Thành Thịnh",
+    "khoan_muc": "BILL",
+    "gia_cu": 90,
+    "gia_moi": 90,
+    "phan_bo": {
+      "BC Q.GV": 8000,
+      "POD ĐNB": 200,
+      "POD TNB": 200
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "Tem Niêm Phong (TCL)",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Minh Thành Thịnh",
+    "khoan_muc": "BILL",
+    "gia_cu": 1300,
+    "gia_moi": 1300,
+    "phan_bo": {
+      "BC Q.GV": 300
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "GIẤY IN NHIỆT A6 KHỔ 50X100 (MÃ KIỆN)",
+    "dvt": "Cuộn",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "BDG nhập",
+    "khoan_muc": "GIẤY",
+    "gia_cu": 61000,
+    "gia_moi": 63000,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "SEAL NIÊM PHONG",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Viễn Đông",
+    "khoan_muc": "DỤNG CỤ ĐÓNG HÀNG",
+    "gia_cu": 1598,
+    "gia_moi": 1650,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "THÙNG GIẤY ĐÓNG HÀNG",
+    "dvt": "Kg",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "TT2 nhập",
+    "khoan_muc": "THÙNG CARTON",
+    "gia_cu": 12000,
+    "gia_moi": 12000,
+    "phan_bo": {
+      "BC Q.GV": 40
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "GỖ (65 cái ~ 30 bó (1 bó / 20 thanh gỗ)",
+    "dvt": "Bó",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Gỗ Thanh Tâm",
+    "khoan_muc": "GỖ",
+    "gia_cu": 110000,
+    "gia_moi": 136000,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "XỐP TRẮNG",
+    "dvt": "Khối",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Minh Phát",
+    "khoan_muc": "TẤM XỐP TRẮNG",
+    "gia_cu": 330000,
+    "gia_moi": 400000,
+    "phan_bo": {}
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "ĐINH BẮN GỖ F30",
+    "dvt": "Hộp",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Cửa hàng DNI",
+    "khoan_muc": "ĐINH",
+    "gia_cu": 40000,
+    "gia_moi": 40000,
+    "phan_bo": {
+      "BCQ12": 20
+    }
+  },
+  {
+    "loai": "NVL",
+    "ten_sp": "LƯỠI CƯA",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Cửa hàng DNI",
+    "khoan_muc": "DỤNG CỤ ĐÓNG HÀNG",
+    "gia_cu": null,
+    "gia_moi": 280000,
+    "phan_bo": {
+      "BCQ12": 1
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Giấy A4",
+    "dvt": "Gram",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "Vpp Mai Anh",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 60000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 6,
+      "LONG HẬU": 4,
+      "TIỀN GIANG": 1,
+      "VP HCM - KẾ TOÁN": 5,
+      "MIỀN TÂY - KIÊN GIANG": 1
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Giấy A5",
+    "dvt": "Gram",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 35000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 25,
+      "BCQ12": 10,
+      "LONG HẬU": 4,
+      "TIỀN GIANG": 3,
+      "VP HCM - KẾ TOÁN": 5,
+      "MIỀN TÂY - KIÊN GIANG": 3
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Bút bi TL 027",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 7000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 25,
+      "BCQ12": 10
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Viết Lông Dầu Penta Xanh",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 12000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 4,
+      "BCQ12": 20
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Mực Dấu Đỏ Shiny",
+    "dvt": "Chai",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 60000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Mực Lông dầu Penta Xanh",
+    "dvt": "Chai",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 12000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Bút Xóa CP-02",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 35000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Dao rọc giấy lớn SDI 0423",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 20000,
+    "gia_moi": null,
+    "phan_bo": {
+      "MIỀN TÂY - KIÊN GIANG": 3
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Lưỡi dao lớn SDI 1404",
+    "dvt": "Vĩ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 17000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BCQ12": 10
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Dây thun xuất khẩu 333",
+    "dvt": "Bịch",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 60000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kéo trung 180",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 20000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 2,
+      "BCQ12": 1
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Đồ Bấm Kim Plus  No.10 - Chính Hãng",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 43000,
+    "gia_moi": null,
+    "phan_bo": {
+      "LONG HẬU": 2
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kim Bấm No.10 - Plus",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 6000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 20,
+      "BCQ12": 10
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Hồ nước Thiên Long",
+    "dvt": "Chai",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 7000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kẹp Bướm 15mm",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 8000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kẹp Bướm 19Mm",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 9000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kẹp Bướm 32Mm",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 19000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kẹp Bướm 51Mm",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 40000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Bút chì gỗ GP-01",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 6500,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Bút dạ quang HL-03",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 16000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Sáp đếm tiền nhiều màu",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 9000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BCQ12": 5
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Note 5 màu dạ quang (Không dùng để trình ký)",
+    "dvt": "Xấp",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 19000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Bìa nút My Clear F4",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 5000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Ruy Băng LQ310 FullMark (Mực In Kim)",
+    "dvt": "Hộp",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "MỰC IN",
+    "gia_cu": 120000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Kẹp Giấy C.62 -\"A\"",
+    "dvt": "Hộp Nhỏ",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 7000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Bìa lỗ 4 lạng",
+    "dvt": "Xấp",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 50000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Giấy note 5 màu Film Néon (Note trình ký)",
+    "dvt": "Xấp",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 19000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Gôm Pentel H.03",
+    "dvt": "Cái",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 6000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Pin 3A - Toshiba rời",
+    "dvt": "Viên",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 8000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BCQ12": 6
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Pin 2A - Toshiba rời",
+    "dvt": "Viên",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "DỤNG CỤ VĂN PHÒNG PHẨM",
+    "gia_cu": 8000,
+    "gia_moi": null,
+    "phan_bo": {}
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Chổi cỏ cán nhựa",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "",
+    "gia_cu": 60000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BC Q.GV": 1
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Cọ chà bồn vệ sinh",
+    "dvt": "Cây",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "",
+    "gia_cu": 54000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BCQ12": 1
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "Nước rửa nhà vệ sinh - Tẩy Duck 900ml",
+    "dvt": "Chai",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "",
+    "gia_cu": 58000,
+    "gia_moi": null,
+    "phan_bo": {
+      "BCQ12": 1
+    }
+  },
+  {
+    "loai": "VPP",
+    "ten_sp": "MỰC BƠM",
+    "dvt": "Chai",
+    "ton_dau_thang": null,
+    "nhap_trong_thang": null,
+    "ncc": "",
+    "khoan_muc": "",
+    "gia_cu": 100000,
+    "gia_moi": null,
+    "phan_bo": {
+      "VP HCM - KẾ TOÁN": 2
+    }
+  }
+]
