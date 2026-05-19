@@ -62,8 +62,16 @@ function App() {
     Promise.all(monthKeys.map(mk => get(ref(db, `submissions/${mk}`)))).then(snaps => {
       snaps.forEach((snap, idx) => {
         if (!snap.exists()) return;
+        // Old khu vuc names mapped to new names for backward compat
+        const KV_ALIASES = {
+          "CÁC TỈNH MIỀN BẮC": ["MIỀN BẮC"],
+          "HÀ NỘI": ["HN"],
+          "TT1 (TRUNG TÂM 1)": ["TT1"],
+          "LONG AN": ["LONG HẬU"],
+        };
+        const matchedKvs = [user.khuVuc, ...(KV_ALIASES[user.khuVuc] || [])];
         Object.values(snap.val()).forEach(sub => {
-          if (sub.khuVuc !== user.khuVuc || sub.phongBan !== user.phongBan) return;
+          if (!matchedKvs.includes(sub.khuVuc) || sub.phongBan !== user.phongBan) return;
           const [y, m] = monthKeys[idx].split('_');
           const label = `Tháng ${parseInt(m)}/${y}`;
           (sub.items || []).forEach(item => {
