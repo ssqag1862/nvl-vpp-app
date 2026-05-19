@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
 import * as XLSX from 'xlsx';
+import {
+  PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid,
+} from 'recharts';
 import { db } from '../firebase';
 import { ref, get, set, remove } from 'firebase/database';
 import { REGION_MAP } from '../data/orgStructure';
 import './ReportView.css';
+
+const COLORS = ['#00a651', '#34c974', '#007a3d', '#22d3ee', '#3b82f6', '#f97316', '#a855f7', '#f43f5e'];
+
+const fmt = (v) => v > 0 ? v.toLocaleString('vi-VN') + 'đ' : '0đ';
 
 function ReportView() {
   const now = new Date();
@@ -13,6 +21,7 @@ function ReportView() {
   const [loading, setLoading] = useState(false);
   const [loaded, setLoaded] = useState(false);
   const [deleting, setDeleting] = useState(null);
+  const [viewMode, setViewMode] = useState('table');
 
   const monthKey = `${year}_${String(month).padStart(2, '0')}`;
 
@@ -34,7 +43,6 @@ function ReportView() {
     setLoaded(true);
   };
 
-  // Delete a specific item (sp+ncc) from all submissions in a phong ban
   const deleteItem = async (kv, pb, sp, ncc) => {
     if (!window.confirm(`Xóa "${sp}" khỏi báo cáo tháng ${month}/${year}?`)) return;
     const key = `${kv}|${pb}|${sp}|${ncc}`;
@@ -83,6 +91,45 @@ function ReportView() {
     sum + (sub.items || []).reduce((s, i) => s + (i.total || 0), 0), 0
   );
 
+  // Dashboard data
+  const byVung = Object.entries(grouped).map(([region, kvs]) => ({
+    name: region,
+    value: Object.values(kvs).flatMap(pbs => Object.values(pbs).flat()).reduce((s, i) => s + (i.total || 0), 0),
+  })).filter(d => d.value > 0);
+
+  const byKhuVuc = [];
+  Object.entries(grouped).forEach(([, kvs]) => {
+    Object.entries(kvs).forEach(([kv, pbs]) => {
+      const value = Object.values(pbs).flat().reduce((s, i) => s + (i.total || 0), 0);
+      if (value > 0) byKhuVuc.push({ name: kv, value });
+    });
+  });
+  byKhuVuc.sort((a, b) => b.value - a.value);
+
+  const byCat = {};
+  submissions.forEach(sub => {
+    (sub.items || []).forEach(item => {
+      if (!byCat[item.cat]) byCat[item.cat] = 0;
+      byCat[item.cat] += item.total || 0;
+    });
+  });
+  const byCatArr = Object.entries(byCat)
+    .map(([name, value]) => ({ name, value }))
+    .filter(d => d.value > 0)
+    .sort((a, b) => b.value - a.value)
+    .slice(0, 8);
+
+  const byProduct = {};
+  submissions.forEach(sub => {
+    (sub.items || []).forEach(item => {
+      if (!byProduct[item.sp]) byProduct[item.sp] = { name: item.sp, qty: 0, total: 0 };
+      byProduct[item.sp].qty += item.qty;
+      byProduct[item.sp].total += item.total || 0;
+    });
+  });
+  const topByQty = Object.values(byProduct).sort((a, b) => b.qty - a.qty).slice(0, 8);
+  const topByValue = Object.values(byProduct).filter(d => d.total > 0).sort((a, b) => b.total - a.total).slice(0, 8);
+
   const exportExcel = () => {
     const rows = [['Vùng', 'Khu vực', 'Phòng ban', 'Tên sản phẩm', 'ĐVT', 'NCC', 'Danh mục', 'Số lượng', 'Đơn giá', 'Thành tiền']];
     Object.entries(grouped).forEach(([region, khuVucs]) => {
@@ -105,6 +152,30 @@ function ReportView() {
     const wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, `BC_${monthKey}`);
     XLSX.writeFile(wb, `BaoCao_NVL_VPP_${monthKey}.xlsx`);
+  };
+
+  const CustomTooltip = ({ active, payload }) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="chart-tooltip">
+          <p className="chart-tooltip-label">{payload[0].name || payload[0].payload?.name}</p>
+          <p className="chart-tooltip-val">{fmt(payload[0].value)}</p>
+        </div>
+      );
+    }
+    return null;
+  };
+
+  const QtyTooltip = ({ active, payload }) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="chart-tooltip">
+          <p className="chart-tooltip-label">{payload[0].payload?.name}</p>
+          <p className="chart-tooltip-val">SL: {payload[0].value}</p>
+        </div>
+      );
+    }
+    return null;
   };
 
   return (
@@ -158,6 +229,7 @@ function ReportView() {
 
       {loaded && submissions.length > 0 && (
         <div className="report-content">
+          {/* Summary bar */}
           <div className="report-summary-bar">
             <div className="summary-stat">
               <span className="summary-val">{submissions.length}</span>
@@ -165,7 +237,7 @@ function ReportView() {
             </div>
             <div className="summary-stat">
               <span className="summary-val">{Object.keys(grouped).length}</span>
-              <span>Khu vực</span>
+              <span>Vùng</span>
             </div>
             <div className="summary-stat">
               <span className="summary-val">
@@ -177,96 +249,232 @@ function ReportView() {
               <span className="summary-val">{grandTotal.toLocaleString('vi-VN')}đ</span>
               <span>Tổng giá trị</span>
             </div>
+
+            {/* View toggle */}
+            <div className="view-toggle">
+              <button
+                className={`toggle-btn ${viewMode === 'table' ? 'active' : ''}`}
+                onClick={() => setViewMode('table')}
+              >
+                📋 Bảng
+              </button>
+              <button
+                className={`toggle-btn ${viewMode === 'dashboard' ? 'active' : ''}`}
+                onClick={() => setViewMode('dashboard')}
+              >
+                📊 Dashboard
+              </button>
+            </div>
           </div>
 
-          {Object.entries(grouped).map(([region, khuVucs]) => {
-            const regionTotal = Object.values(khuVucs)
-              .flatMap(pbs => Object.values(pbs).flat())
-              .reduce((s, i) => s + (i.total || 0), 0);
-            return (
-              <div key={region} className="report-region-block">
-                <div className="report-region-header">
-                  <span>{region}</span>
-                  <span>{regionTotal.toLocaleString('vi-VN')}đ</span>
-                </div>
-
-                {Object.entries(khuVucs).map(([kv, phongBans]) => {
-                  const kvTotal = Object.values(phongBans).flat().reduce((s, i) => s + (i.total || 0), 0);
-                  return (
-                    <div key={kv} className="report-kv-block">
-                      <div className="report-kv-header">
-                        <span className="kv-name">{kv}</span>
-                        <span className="kv-total">{kvTotal.toLocaleString('vi-VN')}đ</span>
-                      </div>
-
-                      {Object.entries(phongBans).map(([pb, items]) => {
-                        const pbTotal = items.reduce((s, i) => s + (i.total || 0), 0);
-                        return (
-                          <div key={pb} className="report-pb-block">
-                            <div className="report-pb-header">
-                              <span>{pb}</span>
-                              <span>{pbTotal.toLocaleString('vi-VN')}đ</span>
-                            </div>
-                            <table className="report-table">
-                              <thead>
-                                <tr>
-                                  <th>STT</th>
-                                  <th>Tên sản phẩm</th>
-                                  <th>ĐVT</th>
-                                  <th>NCC</th>
-                                  <th>Danh mục</th>
-                                  <th>SL</th>
-                                  <th>Đơn giá</th>
-                                  <th>Thành tiền</th>
-                                  <th></th>
-                                </tr>
-                              </thead>
-                              <tbody>
-                                {items.map((item, idx) => {
-                                  const dk = `${kv}|${pb}|${item.sp}|${item.ncc}`;
-                                  return (
-                                    <tr key={idx}>
-                                      <td className="td-center">{idx + 1}</td>
-                                      <td className="td-name">{item.sp}</td>
-                                      <td className="td-center">{item.dvt}</td>
-                                      <td>{item.ncc}</td>
-                                      <td>{item.cat}</td>
-                                      <td className="td-center">{item.qty}</td>
-                                      <td className="td-right">
-                                        {item.price > 0 ? item.price.toLocaleString('vi-VN') : '—'}
-                                      </td>
-                                      <td className="td-right td-total">
-                                        {item.total > 0 ? item.total.toLocaleString('vi-VN') : '—'}
-                                      </td>
-                                      <td className="td-center">
-                                        <button
-                                          className="btn-delete-row"
-                                          onClick={() => deleteItem(kv, pb, item.sp, item.ncc)}
-                                          disabled={deleting === dk}
-                                          title="Xóa dòng này"
-                                        >
-                                          {deleting === dk ? '...' : '🗑'}
-                                        </button>
-                                      </td>
-                                    </tr>
-                                  );
-                                })}
-                              </tbody>
-                            </table>
-                          </div>
-                        );
-                      })}
+          {/* TABLE VIEW */}
+          {viewMode === 'table' && (
+            <>
+              {Object.entries(grouped).map(([region, khuVucs]) => {
+                const regionTotal = Object.values(khuVucs)
+                  .flatMap(pbs => Object.values(pbs).flat())
+                  .reduce((s, i) => s + (i.total || 0), 0);
+                return (
+                  <div key={region} className="report-region-block">
+                    <div className="report-region-header">
+                      <span>{region}</span>
+                      <span>{regionTotal.toLocaleString('vi-VN')}đ</span>
                     </div>
-                  );
-                })}
+                    {Object.entries(khuVucs).map(([kv, phongBans]) => {
+                      const kvTotal = Object.values(phongBans).flat().reduce((s, i) => s + (i.total || 0), 0);
+                      return (
+                        <div key={kv} className="report-kv-block">
+                          <div className="report-kv-header">
+                            <span className="kv-name">{kv}</span>
+                            <span className="kv-total">{kvTotal.toLocaleString('vi-VN')}đ</span>
+                          </div>
+                          {Object.entries(phongBans).map(([pb, items]) => {
+                            const pbTotal = items.reduce((s, i) => s + (i.total || 0), 0);
+                            return (
+                              <div key={pb} className="report-pb-block">
+                                <div className="report-pb-header">
+                                  <span>{pb}</span>
+                                  <span>{pbTotal.toLocaleString('vi-VN')}đ</span>
+                                </div>
+                                <table className="report-table">
+                                  <thead>
+                                    <tr>
+                                      <th>STT</th>
+                                      <th>Tên sản phẩm</th>
+                                      <th>ĐVT</th>
+                                      <th>NCC</th>
+                                      <th>Danh mục</th>
+                                      <th>SL</th>
+                                      <th>Đơn giá</th>
+                                      <th>Thành tiền</th>
+                                      <th></th>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    {items.map((item, idx) => {
+                                      const dk = `${kv}|${pb}|${item.sp}|${item.ncc}`;
+                                      return (
+                                        <tr key={idx}>
+                                          <td className="td-center">{idx + 1}</td>
+                                          <td className="td-name">{item.sp}</td>
+                                          <td className="td-center">{item.dvt}</td>
+                                          <td>{item.ncc}</td>
+                                          <td>{item.cat}</td>
+                                          <td className="td-center">{item.qty}</td>
+                                          <td className="td-right">
+                                            {item.price > 0 ? item.price.toLocaleString('vi-VN') : '—'}
+                                          </td>
+                                          <td className="td-right td-total">
+                                            {item.total > 0 ? item.total.toLocaleString('vi-VN') : '—'}
+                                          </td>
+                                          <td className="td-center">
+                                            <button
+                                              className="btn-delete-row"
+                                              onClick={() => deleteItem(kv, pb, item.sp, item.ncc)}
+                                              disabled={deleting === dk}
+                                              title="Xóa dòng này"
+                                            >
+                                              {deleting === dk ? '...' : '🗑'}
+                                            </button>
+                                          </td>
+                                        </tr>
+                                      );
+                                    })}
+                                  </tbody>
+                                </table>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      );
+                    })}
+                  </div>
+                );
+              })}
+              <div className="report-grand-total">
+                <span>TỔNG CỘNG TOÀN BỘ</span>
+                <span>{grandTotal.toLocaleString('vi-VN')}đ</span>
               </div>
-            );
-          })}
+            </>
+          )}
 
-          <div className="report-grand-total">
-            <span>TỔNG CỘNG TOÀN BỘ</span>
-            <span>{grandTotal.toLocaleString('vi-VN')}đ</span>
-          </div>
+          {/* DASHBOARD VIEW */}
+          {viewMode === 'dashboard' && (
+            <div className="dashboard-grid">
+
+              {/* Row 1: Pie by Vung + Bar by KhuVuc */}
+              <div className="dash-card">
+                <h3 className="dash-card-title">Chi phí theo Vùng</h3>
+                <ResponsiveContainer width="100%" height={260}>
+                  <PieChart>
+                    <Pie
+                      data={byVung}
+                      cx="50%"
+                      cy="50%"
+                      innerRadius={60}
+                      outerRadius={100}
+                      paddingAngle={3}
+                      dataKey="value"
+                    >
+                      {byVung.map((_, i) => (
+                        <Cell key={i} fill={COLORS[i % COLORS.length]} />
+                      ))}
+                    </Pie>
+                    <Tooltip content={<CustomTooltip />} />
+                    <Legend
+                      formatter={(value) => <span style={{ color: 'var(--text2)', fontSize: 12 }}>{value}</span>}
+                    />
+                  </PieChart>
+                </ResponsiveContainer>
+              </div>
+
+              <div className="dash-card">
+                <h3 className="dash-card-title">Chi phí theo Khu vực</h3>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={byKhuVuc} layout="vertical" margin={{ left: 10, right: 20 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
+                    <XAxis
+                      type="number"
+                      tick={{ fill: 'var(--text3)', fontSize: 10 }}
+                      tickFormatter={v => v >= 1000000 ? (v / 1000000).toFixed(1) + 'M' : v >= 1000 ? (v / 1000).toFixed(0) + 'K' : v}
+                    />
+                    <YAxis type="category" dataKey="name" tick={{ fill: 'var(--text2)', fontSize: 11 }} width={130} />
+                    <Tooltip content={<CustomTooltip />} />
+                    <Bar dataKey="value" fill="#00a651" radius={[0, 4, 4, 0]} />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+
+              {/* Row 2: Top products by value + by qty */}
+              <div className="dash-card">
+                <h3 className="dash-card-title">Top sản phẩm theo giá trị</h3>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={topByValue} layout="vertical" margin={{ left: 10, right: 20 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
+                    <XAxis
+                      type="number"
+                      tick={{ fill: 'var(--text3)', fontSize: 10 }}
+                      tickFormatter={v => v >= 1000000 ? (v / 1000000).toFixed(1) + 'M' : v >= 1000 ? (v / 1000).toFixed(0) + 'K' : v}
+                    />
+                    <YAxis
+                      type="category" dataKey="name"
+                      tick={{ fill: 'var(--text2)', fontSize: 10 }}
+                      width={140}
+                      tickFormatter={v => v.length > 18 ? v.slice(0, 18) + '…' : v}
+                    />
+                    <Tooltip content={<CustomTooltip />} />
+                    <Bar dataKey="total" fill="#34c974" radius={[0, 4, 4, 0]} />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+
+              <div className="dash-card">
+                <h3 className="dash-card-title">Top sản phẩm theo số lượng</h3>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={topByQty} layout="vertical" margin={{ left: 10, right: 20 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" horizontal={false} />
+                    <XAxis type="number" tick={{ fill: 'var(--text3)', fontSize: 10 }} />
+                    <YAxis
+                      type="category" dataKey="name"
+                      tick={{ fill: 'var(--text2)', fontSize: 10 }}
+                      width={140}
+                      tickFormatter={v => v.length > 18 ? v.slice(0, 18) + '…' : v}
+                    />
+                    <Tooltip content={<QtyTooltip />} />
+                    <Bar dataKey="qty" fill="#3b82f6" radius={[0, 4, 4, 0]} />
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+
+              {/* Row 3: By category - full width */}
+              <div className="dash-card dash-card-full">
+                <h3 className="dash-card-title">Chi phí theo Danh mục</h3>
+                <ResponsiveContainer width="100%" height={240}>
+                  <BarChart data={byCatArr} margin={{ left: 10, right: 20, bottom: 60 }}>
+                    <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" vertical={false} />
+                    <XAxis
+                      dataKey="name"
+                      tick={{ fill: 'var(--text2)', fontSize: 11 }}
+                      angle={-30}
+                      textAnchor="end"
+                      interval={0}
+                    />
+                    <YAxis
+                      tick={{ fill: 'var(--text3)', fontSize: 10 }}
+                      tickFormatter={v => v >= 1000000 ? (v / 1000000).toFixed(1) + 'M' : v >= 1000 ? (v / 1000).toFixed(0) + 'K' : v}
+                    />
+                    <Tooltip content={<CustomTooltip />} />
+                    <Bar dataKey="value" radius={[4, 4, 0, 0]}>
+                      {byCatArr.map((_, i) => (
+                        <Cell key={i} fill={COLORS[i % COLORS.length]} />
+                      ))}
+                    </Bar>
+                  </BarChart>
+                </ResponsiveContainer>
+              </div>
+
+            </div>
+          )}
         </div>
       )}
     </div>
