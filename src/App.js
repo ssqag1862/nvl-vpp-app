@@ -11,8 +11,9 @@ import LoginScreen from './components/LoginScreen';
 import ReportView from './components/ReportView';
 import RAW_DATA from './data/masterData.json';
 import { REGION_MAP } from './data/orgStructure';
-import { db } from './firebase';
+import { db, auth } from './firebase';
 import { ref, set, get, push } from 'firebase/database';
+import { onAuthStateChanged, signOut } from 'firebase/auth';
 
 const safeKey = (name) => name.replace(/[.#$/[\]\s]/g, '_');
 
@@ -34,9 +35,8 @@ const CATALOGUE = RAW_DATA.map(d => ({
 })).filter(d => d.sp);
 
 function App() {
-  const [user, setUser] = useState(() => {
-    try { return JSON.parse(localStorage.getItem('nvl_user')) || null; } catch { return null; }
-  });
+  const [user, setUser] = useState(null);
+  const [authChecked, setAuthChecked] = useState(false);
   const [filtered, setFiltered] = useState([]);
   const [cart, setCart] = useState([]);
   const [cartInitialized, setCartInitialized] = useState(false);
@@ -47,6 +47,24 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [showReport, setShowReport] = useState(false);
   const [orderHistory, setOrderHistory] = useState({});
+
+  // Firebase Auth — auto-login returning users
+  useEffect(() => {
+    const unsub = onAuthStateChanged(auth, async (firebaseUser) => {
+      if (firebaseUser) {
+        const snap = await get(ref(db, `users/${firebaseUser.uid}`));
+        if (snap.exists()) {
+          const p = snap.val();
+          setUser({ uid: firebaseUser.uid, username: p.displayName, vung: p.vung, khuVuc: p.khuVuc, phongBan: p.phongBan, email: firebaseUser.email });
+        }
+        // If no profile yet → user stays null → LoginScreen handles setup
+      } else {
+        setUser(null);
+      }
+      setAuthChecked(true);
+    });
+    return unsub;
+  }, []);
 
   const PAGE_SIZE = 30;
 
@@ -94,7 +112,7 @@ function App() {
       return;
     }
     setCartInitialized(false);
-    const cartKey = safeKey(`${user.khuVuc}_${user.phongBan}_${user.username}`);
+    const cartKey = user.uid ? safeKey(user.uid) : safeKey(`${user.khuVuc}_${user.phongBan}_${user.username}`);
     get(ref(db, `carts/${cartKey}`))
       .then((snapshot) => {
         setCart(snapshot.exists() ? (snapshot.val().items || []) : []);
@@ -106,7 +124,7 @@ function App() {
   // Save cart (debounced)
   useEffect(() => {
     if (!user || !cartInitialized) return;
-    const cartKey = safeKey(`${user.khuVuc}_${user.phongBan}_${user.username}`);
+    const cartKey = user.uid ? safeKey(user.uid) : safeKey(`${user.khuVuc}_${user.phongBan}_${user.username}`);
     const timer = setTimeout(() => {
       set(ref(db, `carts/${cartKey}`), { items: cart, updatedAt: Date.now() })
         .catch(err => console.error('Cart save error:', err));
@@ -169,12 +187,11 @@ function App() {
   };
 
   const handleLogin = (userInfo) => {
-    localStorage.setItem('nvl_user', JSON.stringify(userInfo));
     setUser(userInfo);
   };
 
   const handleLogout = () => {
-    localStorage.removeItem('nvl_user');
+    signOut(auth);
     setUser(null);
     setCart([]);
     setCartInitialized(false);
@@ -271,6 +288,7 @@ function App() {
   const categories = [...new Set(CATALOGUE.map(d => d.cat).filter(Boolean))].sort();
   const nccs = [...new Set(CATALOGUE.map(d => d.ncc).filter(Boolean))].sort();
 
+  if (!authChecked) return <div className="app loading-screen"><p className="loading-text">Đang tải...</p></div>;
   if (!user) return <LoginScreen onLogin={handleLogin} />;
 
   if (showReport) {
