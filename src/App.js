@@ -46,8 +46,35 @@ function App() {
   const [toast, setToast] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [showReport, setShowReport] = useState(false);
+  const [orderHistory, setOrderHistory] = useState({});
 
   const PAGE_SIZE = 30;
+
+  // Load last 3 months of this branch's order history for the catalogue indicator
+  useEffect(() => {
+    if (!user) { setOrderHistory({}); return; }
+    const now = new Date();
+    const monthKeys = Array.from({ length: 3 }, (_, i) => {
+      const d = new Date(now.getFullYear(), now.getMonth() - i, 1);
+      return `${d.getFullYear()}_${String(d.getMonth() + 1).padStart(2, '0')}`;
+    });
+    const history = {};
+    Promise.all(monthKeys.map(mk => get(ref(db, `submissions/${mk}`)))).then(snaps => {
+      snaps.forEach((snap, idx) => {
+        if (!snap.exists()) return;
+        Object.values(snap.val()).forEach(sub => {
+          if (sub.khuVuc !== user.khuVuc || sub.phongBan !== user.phongBan) return;
+          const [y, m] = monthKeys[idx].split('_');
+          const label = `Tháng ${parseInt(m)}/${y}`;
+          (sub.items || []).forEach(item => {
+            const key = `${item.sp}|${item.ncc}`;
+            if (!history[key]) history[key] = { label, qty: item.qty };
+          });
+        });
+      });
+      setOrderHistory(history);
+    }).catch(() => {});
+  }, [user]);
 
   // Catalogue is hardcoded — no Firebase needed for products
 
@@ -285,6 +312,7 @@ function App() {
             currentPage={currentPage}
             onPageChange={setCurrentPage}
             pageSize={PAGE_SIZE}
+            orderHistory={orderHistory}
           />
         </div>
       </div>

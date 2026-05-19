@@ -1,7 +1,7 @@
 import React from 'react';
 import './Table.css';
 
-function Table({ filtered, cart, onAddToCart, currentPage, onPageChange, pageSize }) {
+function Table({ filtered, cart, onAddToCart, currentPage, onPageChange, pageSize, orderHistory = {} }) {
   const start = (currentPage - 1) * pageSize;
   const page = filtered.slice(start, start + pageSize);
   const totalPages = Math.ceil(filtered.length / pageSize);
@@ -59,7 +59,14 @@ function Table({ filtered, cart, onAddToCart, currentPage, onPageChange, pageSiz
                   <td>
                     <span className={`region-badge ${d.vc}`}>{d.vc}</span>
                   </td>
-                  <td style={{ fontWeight: '500' }}>{d.sp}</td>
+                  <td style={{ fontWeight: '500' }}>
+                    {d.sp}
+                    {orderHistory[`${d.sp}|${d.ncc}`] && (
+                      <div className="order-hint">
+                        Đã đặt {orderHistory[`${d.sp}|${d.ncc}`].label} · SL: {orderHistory[`${d.sp}|${d.ncc}`].qty}
+                      </div>
+                    )}
+                  </td>
                   <td style={{ color: 'var(--text3)' }}>{d.dvt}</td>
                   <td>
                     <span className="cat-tag">{d.cat}</span>
