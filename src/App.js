@@ -14,7 +14,7 @@ import { REGION_MAP } from './data/orgStructure';
 import { db } from './firebase';
 import { ref, set, get, push } from 'firebase/database';
 
-const safeKey = (name) => name.replace(/[.#$\/\[\]\s]/g, '_');
+const safeKey = (name) => name.replace(/[.#$/[\]\s]/g, '_');
 
 // Transform JSON fields to app format once at startup
 const CATALOGUE = RAW_DATA.map(d => ({
