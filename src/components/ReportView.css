@@ -380,10 +380,134 @@
   margin: 0;
 }
 
+/* Region filter bar */
+.region-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 4px 0;
+}
+
+.region-filter-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text3);
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  flex-shrink: 0;
+}
+
+.region-filter-btn {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text2);
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 5px 14px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.region-filter-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.region-filter-btn:hover:not(.active) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Phòng ban header layout */
+.pb-header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.pb-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.pb-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.pb-users {
+  font-size: 11px;
+  color: var(--text3);
+  font-weight: 400;
+}
+
+.btn-delete-all-pb {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  border-radius: 6px;
+  color: #ef4444;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.btn-delete-all-pb:hover {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.5);
+}
+
+/* Notes section */
+.pb-notes {
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.02);
+  border-top: 1px dashed var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pb-note-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.pb-note-user {
+  font-weight: 600;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+
+.pb-note-text {
+  color: var(--text2);
+  line-height: 1.5;
+}
+
+/* Report content wrapper */
+.report-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 @media (max-width: 900px) {
   .dashboard-grid { grid-template-columns: 1fr; }
   .report-view { padding: 16px; }
   .report-toolbar { flex-direction: column; }
   .report-table { font-size: 11px; }
   .report-table td, .report-table th { padding: 7px 8px; }
+  .pb-header-right { gap: 8px; }
+  .btn-delete-all-pb { font-size: 11px; padding: 3px 8px; }
 }

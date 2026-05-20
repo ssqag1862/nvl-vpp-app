@@ -9,6 +9,7 @@ import Toast from './components/Toast';
 import LoginScreen from './components/LoginScreen';
 // DropZone removed — catalogue is hardcoded
 import ReportView from './components/ReportView';
+import Footer from './components/Footer';
 import RAW_DATA from './data/masterData.json';
 import { REGION_MAP } from './data/orgStructure';
 import { db, auth } from './firebase';
@@ -150,7 +151,7 @@ function App() {
   }, [search, filters]);
 
 
-  const handleSubmitRequest = async () => {
+  const handleSubmitRequest = async (note) => {
     if (cart.length === 0) {
       showToast('⚠️ Chưa có sản phẩm để gửi');
       return;
@@ -172,6 +173,7 @@ function App() {
         qty: c.qty,
         total: (c.price || 0) * c.qty,
       })),
+      note: note || '',
       submittedAt: Date.now(),
       month: monthKey,
     };
@@ -302,6 +304,7 @@ function App() {
           onToggleReport={() => setShowReport(false)}
         />
         <ReportView />
+        <Footer />
         <Toast message={toast} />
       </div>
     );
@@ -364,6 +367,7 @@ function App() {
         </>
       )}
 
+      <Footer />
       <Toast message={toast} />
     </div>
   );

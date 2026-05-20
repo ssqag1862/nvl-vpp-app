@@ -18,18 +18,30 @@
   gap: 16px;
 }
 
-.logo {
-  width: 44px;
-  height: 44px;
-  background: linear-gradient(135deg, var(--accent), #007a3d);
-  border-radius: 12px;
+.logo-netco {
   display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 0;
+  line-height: 1;
+}
+
+.logo-netco-main {
+  font-size: 20px;
+  font-weight: 900;
+  color: #00a651;
+  letter-spacing: -0.5px;
+}
+
+.logo-netco-post {
+  background: #e31e24;
+  color: #fff;
+  font-size: 12px;
   font-weight: 800;
-  font-size: 18px;
-  color: #ffffff;
-  box-shadow: 0 4px 16px rgba(0, 166, 81, 0.3);
+  font-style: italic;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 5px;
+  letter-spacing: 0.5px;
 }
 
 .header h1 {

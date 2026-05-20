@@ -5,7 +5,10 @@ function Header({ catalogue, user, onLogout, showReport, onToggleReport }) {
   return (
     <header className="header">
       <div className="header-left">
-        <div className="logo">NVL</div>
+        <div className="logo-netco">
+          <span className="logo-netco-main">NETCO</span>
+          <span className="logo-netco-post">POST</span>
+        </div>
         <div>
           <h1>Catalogue <span>NVL & VPP</span></h1>
         </div>
