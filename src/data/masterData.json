@@ -2,7 +2,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt",
     "don_vi_tinh": "Chiếc / Cái",
@@ -18,7 +17,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt",
     "don_vi_tinh": "Chiếc / Cái",
@@ -34,7 +32,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "Băng keo Netco",
     "don_vi_tinh": "Cuộn",
@@ -50,7 +47,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "Băng keo Netco",
     "don_vi_tinh": "Cuộn",
@@ -66,7 +62,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "Băng keo trong",
     "don_vi_tinh": "Cuộn",
@@ -82,7 +77,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "Băng keo trong",
     "don_vi_tinh": "Cuộn",
@@ -98,7 +92,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng keo trong 1,2cm",
     "don_vi_tinh": "Cuộn",
@@ -109,12 +102,11 @@
     "material_object_code": "4DF",
     "material_object_name": "Tape - Băng dính",
     "category": "BĂNG KEO",
-    "price_per_unit": 0
+    "price_per_unit": 3000
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng keo trong 1,2cm",
     "don_vi_tinh": "Cuộn",
@@ -130,7 +122,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "Băng keo đục",
     "don_vi_tinh": "Cuộn",
@@ -146,7 +137,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "Băng keo đục",
     "don_vi_tinh": "Cuộn",
@@ -162,7 +152,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng keo",
     "don_vi_tinh": null,
@@ -178,7 +167,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng keo",
     "don_vi_tinh": null,
@@ -194,7 +182,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dụng cụ cắt băng dính",
     "don_vi_tinh": "Cái",
@@ -210,7 +197,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dụng cụ cắt băng dính",
     "don_vi_tinh": "Cái",
@@ -226,7 +212,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ PT THÀNH CÔNG",
     "ten_san_pham": "Bao tải",
     "don_vi_tinh": "Cái",
@@ -242,7 +227,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ PT THÀNH CÔNG",
     "ten_san_pham": "Bao tải",
     "don_vi_tinh": "Cái",
@@ -258,7 +242,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH GIÂY VI TÍNH LIÊN SƠN",
     "ten_san_pham": "Bill Netco",
     "don_vi_tinh": "Bill",
@@ -274,7 +257,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH GIÂY VI TÍNH LIÊN SƠN",
     "ten_san_pham": "Bill Netco",
     "don_vi_tinh": "Bill",
@@ -290,7 +272,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hóa đơn bán lẻ (1 liên)",
     "don_vi_tinh": "cái / quyển",
@@ -306,7 +287,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hóa đơn bán lẻ (1 liên)",
     "don_vi_tinh": "cái / quyển",
@@ -322,7 +302,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu chi",
     "don_vi_tinh": "Quyển",
@@ -338,7 +317,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu chi",
     "don_vi_tinh": "Quyển",
@@ -354,7 +332,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu 2 liên",
     "don_vi_tinh": "Quyển",
@@ -370,7 +347,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu 2 liên",
     "don_vi_tinh": "Quyển",
@@ -386,7 +362,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu-chi",
     "don_vi_tinh": "quyển",
@@ -402,7 +377,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu-chi",
     "don_vi_tinh": "quyển",
@@ -418,7 +392,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút bi TL 027",
     "don_vi_tinh": "Cây",
@@ -434,7 +407,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút bi TL 027",
     "don_vi_tinh": "Cây",
@@ -450,7 +422,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút bi Xanh",
     "don_vi_tinh": "Chiếc",
@@ -461,12 +432,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": 0
+    "price_per_unit": 3500
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút bi Xanh",
     "don_vi_tinh": "Chiếc",
@@ -482,7 +452,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút chì",
     "don_vi_tinh": "Chiếc",
@@ -498,7 +467,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút chì",
     "don_vi_tinh": "Chiếc",
@@ -514,7 +482,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút chì gỗ GP-01",
     "don_vi_tinh": "Cây",
@@ -530,7 +497,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút chì gỗ GP-01",
     "don_vi_tinh": "Cây",
@@ -546,7 +512,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút dạ bảng",
     "don_vi_tinh": "Chiếc",
@@ -562,7 +527,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút dạ bảng",
     "don_vi_tinh": "Chiếc",
@@ -578,7 +542,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút dạ dầu",
     "don_vi_tinh": "Chiếc",
@@ -594,7 +557,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút dạ dầu",
     "don_vi_tinh": "Chiếc",
@@ -610,7 +572,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút dạ kính pm04",
     "don_vi_tinh": "Chiếc",
@@ -626,7 +587,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút dạ kính pm04",
     "don_vi_tinh": "Chiếc",
@@ -642,7 +602,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút Dạ Quang Hl-03",
     "don_vi_tinh": "Cây",
@@ -658,7 +617,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút Dạ Quang Hl-03",
     "don_vi_tinh": "Cây",
@@ -674,7 +632,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút ký pentel BL77",
     "don_vi_tinh": "Cái",
@@ -690,7 +647,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút ký pentel BL77",
     "don_vi_tinh": "Cái",
@@ -706,7 +662,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút ký đĩa PM- 04",
     "don_vi_tinh": "Chiếc / Hộp",
@@ -722,7 +677,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút ký đĩa PM- 04",
     "don_vi_tinh": "Chiếc / Hộp",
@@ -738,7 +692,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút lông dầu Penta xanh",
     "don_vi_tinh": "Cây",
@@ -754,7 +707,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút lông dầu Penta xanh",
     "don_vi_tinh": "Cây",
@@ -770,7 +722,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút nhớ",
     "don_vi_tinh": "Chiếc",
@@ -786,7 +737,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút nhớ",
     "don_vi_tinh": "Chiếc",
@@ -802,7 +752,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút nước Đen",
     "don_vi_tinh": "Chiếc",
@@ -813,12 +762,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": 0
+    "price_per_unit": 6500
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút nước Đen",
     "don_vi_tinh": "Chiếc",
@@ -834,7 +782,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút Xanh",
     "don_vi_tinh": "Chiếc",
@@ -850,7 +797,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút Xanh",
     "don_vi_tinh": "Chiếc",
@@ -866,7 +812,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút xanh dính  bàn",
     "don_vi_tinh": "Cái",
@@ -877,12 +822,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": ""
+    "price_per_unit": null
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút xanh dính  bàn",
     "don_vi_tinh": "Cái",
@@ -893,12 +837,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": ""
+    "price_per_unit": null
   },
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút xóa CP-02",
     "don_vi_tinh": "Cây",
@@ -914,7 +857,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bút xóa CP-02",
     "don_vi_tinh": "Cây",
@@ -930,7 +872,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Gọt bút chì",
     "don_vi_tinh": "cái",
@@ -946,7 +887,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Gọt bút chì",
     "don_vi_tinh": "cái",
@@ -962,7 +902,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Gọt bút chù",
     "don_vi_tinh": "Chiếc",
@@ -978,7 +917,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Gọt bút chù",
     "don_vi_tinh": "Chiếc",
@@ -994,7 +932,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hộp đựng bút",
     "don_vi_tinh": "Cái",
@@ -1010,7 +947,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hộp đựng bút",
     "don_vi_tinh": "Cái",
@@ -1026,7 +962,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực dấu",
     "don_vi_tinh": "hộp",
@@ -1042,7 +977,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực dấu",
     "don_vi_tinh": "hộp",
@@ -1058,7 +992,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực dấu Xanh",
     "don_vi_tinh": "Hộp / Lọ",
@@ -1069,12 +1002,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": 0
+    "price_per_unit": 35000
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực dấu Xanh",
     "don_vi_tinh": "Hộp / Lọ",
@@ -1090,7 +1022,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực lông dầu Penta xanh",
     "don_vi_tinh": "Chai",
@@ -1106,7 +1037,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực lông dầu Penta xanh",
     "don_vi_tinh": "Chai",
@@ -1122,7 +1052,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực đổ con dấu Shiny S62./S63",
     "don_vi_tinh": "Chai",
@@ -1138,7 +1067,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Mực đổ con dấu Shiny S62./S63",
     "don_vi_tinh": "Chai",
@@ -1154,7 +1082,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ruy Băng Lq310 Ht (Mực In Kim)",
     "don_vi_tinh": "Hộp",
@@ -1170,7 +1097,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ruy Băng Lq310 Ht (Mực In Kim)",
     "don_vi_tinh": "Hộp",
@@ -1186,7 +1112,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Tẩy bút chì",
     "don_vi_tinh": "cái / tệp",
@@ -1202,7 +1127,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Tẩy bút chì",
     "don_vi_tinh": "cái / tệp",
@@ -1218,7 +1142,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết bi",
     "don_vi_tinh": "cây",
@@ -1234,7 +1157,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết bi",
     "don_vi_tinh": "cây",
@@ -1250,7 +1172,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết bảng",
     "don_vi_tinh": "cây",
@@ -1266,7 +1187,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết bảng",
     "don_vi_tinh": "cây",
@@ -1282,7 +1202,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết chì",
     "don_vi_tinh": "cây",
@@ -1298,7 +1217,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết chì",
     "don_vi_tinh": "cây",
@@ -1314,7 +1232,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết dạ quang",
     "don_vi_tinh": "cây",
@@ -1330,7 +1247,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết dạ quang",
     "don_vi_tinh": "cây",
@@ -1346,7 +1262,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết lông dầu",
     "don_vi_tinh": "cây",
@@ -1362,7 +1277,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết lông dầu",
     "don_vi_tinh": "cây",
@@ -1378,7 +1292,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết xóa",
     "don_vi_tinh": "cây",
@@ -1394,7 +1307,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Viết xóa",
     "don_vi_tinh": "cây",
@@ -1410,7 +1322,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Decal dán Tomy 130 (1 tờ 12 tem, 1 hộp 100 tờ",
     "don_vi_tinh": "hộp",
@@ -1426,7 +1337,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Decal dán Tomy 130 (1 tờ 12 tem, 1 hộp 100 tờ",
     "don_vi_tinh": "hộp",
@@ -1442,7 +1352,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH SX TM DV IN MINH THÀNH THỊNH",
     "ten_san_pham": "Tem barcode",
     "don_vi_tinh": "Mã / Tem",
@@ -1458,7 +1367,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH SX TM DV IN MINH THÀNH THỊNH",
     "ten_san_pham": "Tem barcode",
     "don_vi_tinh": "Mã / Tem",
@@ -1474,7 +1382,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A4",
     "don_vi_tinh": "gram",
@@ -1490,7 +1397,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A4",
     "don_vi_tinh": "gram",
@@ -1506,7 +1412,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A4 thường",
     "don_vi_tinh": "Gram",
@@ -1522,7 +1427,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A4 thường",
     "don_vi_tinh": "Gram",
@@ -1538,7 +1442,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A5",
     "don_vi_tinh": "Gram / gram",
@@ -1554,7 +1457,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A5",
     "don_vi_tinh": "Gram / gram",
@@ -1570,7 +1472,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy giới thiệu",
     "don_vi_tinh": "Quyển / Tờ / quyển",
@@ -1586,7 +1487,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy giới thiệu",
     "don_vi_tinh": "Quyển / Tờ / quyển",
@@ -1602,7 +1502,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY CỔ PHẦN BASIS VIỆT NAМ",
     "ten_san_pham": "Giấy In Nhiệt A6 Khổ 50X100",
     "don_vi_tinh": "Cuộn",
@@ -1618,7 +1517,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY CỔ PHẦN BASIS VIỆT NAМ",
     "ten_san_pham": "Giấy In Nhiệt A6 Khổ 50X100",
     "don_vi_tinh": "Cuộn",
@@ -1634,7 +1532,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY CỔ PHẦN BASIS VIỆT NAМ",
     "ten_san_pham": "Giấy in nhiệt mã kiện",
     "don_vi_tinh": "Cuộn / cuộn",
@@ -1645,12 +1542,11 @@
     "material_object_code": "7CA",
     "material_object_name": "Paper - Giấy",
     "category": "GIẤY IN & GIẤY VĂN PHÒNG",
-    "price_per_unit": 0
+    "price_per_unit": 63000
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY CỔ PHẦN BASIS VIỆT NAМ",
     "ten_san_pham": "Giấy in nhiệt mã kiện",
     "don_vi_tinh": "Cuộn / cuộn",
@@ -1666,7 +1562,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy than",
     "don_vi_tinh": "Cái / Tờ / hộp",
@@ -1682,7 +1577,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy than",
     "don_vi_tinh": "Cái / Tờ / hộp",
@@ -1698,7 +1592,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dao dọc giấy",
     "don_vi_tinh": "Chiếc / Cái",
@@ -1714,7 +1607,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dao dọc giấy",
     "don_vi_tinh": "Chiếc / Cái",
@@ -1730,7 +1622,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dao rọc giấy lớn SDI 0423",
     "don_vi_tinh": "Cây",
@@ -1746,7 +1637,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dao rọc giấy lớn SDI 0423",
     "don_vi_tinh": "Cây",
@@ -1762,7 +1652,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kéo",
     "don_vi_tinh": "Cái / cái",
@@ -1778,7 +1667,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kéo",
     "don_vi_tinh": "Cái / cái",
@@ -1794,7 +1682,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Xóa kéo",
     "don_vi_tinh": "Chiếc",
@@ -1810,7 +1697,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Xóa kéo",
     "don_vi_tinh": "Chiếc",
@@ -1826,7 +1712,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bấm kim 10 plus",
     "don_vi_tinh": "Cái / cái",
@@ -1842,7 +1727,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bấm kim 10 plus",
     "don_vi_tinh": "Cái / cái",
@@ -1858,7 +1742,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Con ghim số 24/6",
     "don_vi_tinh": "Chiếc / Hộp",
@@ -1874,7 +1757,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Con ghim số 24/6",
     "don_vi_tinh": "Chiếc / Hộp",
@@ -1890,7 +1772,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Con ghim số 3",
     "don_vi_tinh": "Hộp / Túi",
@@ -1906,7 +1787,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Con ghim số 3",
     "don_vi_tinh": "Hộp / Túi",
@@ -1922,7 +1802,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ghim kẹp C62",
     "don_vi_tinh": "hộp",
@@ -1938,7 +1817,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ghim kẹp C62",
     "don_vi_tinh": "hộp",
@@ -1954,7 +1832,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ghim kẹp C62/ Ghim cài",
     "don_vi_tinh": "Hộp",
@@ -1970,7 +1847,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ghim kẹp C62/ Ghim cài",
     "don_vi_tinh": "Hộp",
@@ -1986,7 +1862,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Gỡ ghim",
     "don_vi_tinh": "cái",
@@ -2002,7 +1877,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Gỡ ghim",
     "don_vi_tinh": "cái",
@@ -2018,7 +1892,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim Bấm No.10 - Plus",
     "don_vi_tinh": "Hộp Nhỏ",
@@ -2034,7 +1907,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim Bấm No.10 - Plus",
     "don_vi_tinh": "Hộp Nhỏ",
@@ -2050,7 +1922,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim bấm số 3",
     "don_vi_tinh": "Hộp",
@@ -2066,7 +1937,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim bấm số 3",
     "don_vi_tinh": "Hộp",
@@ -2082,7 +1952,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim bấm/ Con ghim",
     "don_vi_tinh": "Hộp",
@@ -2098,7 +1967,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim bấm/ Con ghim",
     "don_vi_tinh": "Hộp",
@@ -2114,7 +1982,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim bấm10 plus",
     "don_vi_tinh": "hộp",
@@ -2130,7 +1997,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kim bấm10 plus",
     "don_vi_tinh": "hộp",
@@ -2146,7 +2012,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp 3 dây 10P",
     "don_vi_tinh": "cái",
@@ -2162,7 +2027,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp 3 dây 10P",
     "don_vi_tinh": "cái",
@@ -2178,7 +2042,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp 3 dây 15P",
     "don_vi_tinh": "cái",
@@ -2194,7 +2057,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp 3 dây 15P",
     "don_vi_tinh": "cái",
@@ -2210,7 +2072,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp 3 dây 20P",
     "don_vi_tinh": "cái",
@@ -2226,7 +2087,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp 3 dây 20P",
     "don_vi_tinh": "cái",
@@ -2242,7 +2102,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp bướm",
     "don_vi_tinh": "hộp",
@@ -2258,7 +2117,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp bướm",
     "don_vi_tinh": "hộp",
@@ -2274,7 +2132,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp bướm 15 MM",
     "don_vi_tinh": "Hộp",
@@ -2285,12 +2142,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 4500
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp bướm 15 MM",
     "don_vi_tinh": "Hộp",
@@ -2306,7 +2162,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 15mm",
     "don_vi_tinh": "Hộp",
@@ -2322,7 +2177,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 15mm",
     "don_vi_tinh": "Hộp",
@@ -2338,7 +2192,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 19Mm",
     "don_vi_tinh": "Hộp",
@@ -2354,7 +2207,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 19Mm",
     "don_vi_tinh": "Hộp",
@@ -2370,7 +2222,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 32Mm",
     "don_vi_tinh": "Hộp",
@@ -2386,7 +2237,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 32Mm",
     "don_vi_tinh": "Hộp",
@@ -2402,7 +2252,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 51Mm",
     "don_vi_tinh": "Hộp",
@@ -2418,7 +2267,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Bướm 51Mm",
     "don_vi_tinh": "Hộp",
@@ -2434,7 +2282,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Giấy C.62 -\"A\"",
     "don_vi_tinh": "Hộp Nhỏ",
@@ -2450,7 +2297,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Kẹp Giấy C.62 -\"A\"",
     "don_vi_tinh": "Hộp Nhỏ",
@@ -2466,7 +2312,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Nhổ ghim",
     "don_vi_tinh": "Cái",
@@ -2482,7 +2327,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Nhổ ghim",
     "don_vi_tinh": "Cái",
@@ -2498,7 +2342,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Nẹp acco nhựa",
     "don_vi_tinh": "hộp",
@@ -2514,7 +2357,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Nẹp acco nhựa",
     "don_vi_tinh": "hộp",
@@ -2530,7 +2372,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Đồ Bấm Kim Plus  No.10 - Chính Hãng",
     "don_vi_tinh": "Cái",
@@ -2541,12 +2382,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": ""
+    "price_per_unit": null
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Đồ Bấm Kim Plus  No.10 - Chính Hãng",
     "don_vi_tinh": "Cái",
@@ -2557,12 +2397,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": ""
+    "price_per_unit": null
   },
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bao Nilon đựng hồ sơ (Sơ mi lỗ)",
     "don_vi_tinh": "Túi",
@@ -2578,7 +2417,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bao Nilon đựng hồ sơ (Sơ mi lỗ)",
     "don_vi_tinh": "Túi",
@@ -2594,7 +2432,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Con dấu (khắc tên)",
     "don_vi_tinh": "Cái",
@@ -2610,7 +2447,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Con dấu (khắc tên)",
     "don_vi_tinh": "Cái",
@@ -2626,7 +2462,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dây thun",
     "don_vi_tinh": "Cái / Túi / kg",
@@ -2642,7 +2477,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Dây thun",
     "don_vi_tinh": "Cái / Túi / kg",
@@ -2658,7 +2492,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File càng cua",
     "don_vi_tinh": "Cái",
@@ -2674,7 +2507,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File càng cua",
     "don_vi_tinh": "Cái",
@@ -2690,7 +2522,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File càng cua 5cm",
     "don_vi_tinh": "Cái",
@@ -2706,7 +2537,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File càng cua 5cm",
     "don_vi_tinh": "Cái",
@@ -2722,7 +2552,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File nilon 11 lỗ",
     "don_vi_tinh": "Chiếc / Tờ",
@@ -2738,7 +2567,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File nilon 11 lỗ",
     "don_vi_tinh": "Chiếc / Tờ",
@@ -2754,7 +2582,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File treo khổ F",
     "don_vi_tinh": "Cái",
@@ -2770,7 +2597,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File treo khổ F",
     "don_vi_tinh": "Cái",
@@ -2786,7 +2612,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File trình kí",
     "don_vi_tinh": "Cái",
@@ -2802,7 +2627,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File trình kí",
     "don_vi_tinh": "Cái",
@@ -2818,7 +2642,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File trình kí tài liệu",
     "don_vi_tinh": "Cái",
@@ -2834,7 +2657,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File trình kí tài liệu",
     "don_vi_tinh": "Cái",
@@ -2850,7 +2672,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giá dựng giấy tờ dọc 1 ngăn",
     "don_vi_tinh": "Cuộn / Cái",
@@ -2866,7 +2687,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giá dựng giấy tờ dọc 1 ngăn",
     "don_vi_tinh": "Cuộn / Cái",
@@ -2882,7 +2702,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giá dựng giấy tờ ngang 3 ngăn",
     "don_vi_tinh": "Cái",
@@ -2893,12 +2712,11 @@
     "material_object_code": "7CA",
     "material_object_name": "Paper - Giấy",
     "category": "NGUYÊN VẬT LIỆU KHÁC",
-    "price_per_unit": 0
+    "price_per_unit": 45000
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giá dựng giấy tờ ngang 3 ngăn",
     "don_vi_tinh": "Cái",
@@ -2914,7 +2732,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giá đựng giấy tờ ngang 3 ngăn",
     "don_vi_tinh": "Cái",
@@ -2930,7 +2747,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giá đựng giấy tờ ngang 3 ngăn",
     "don_vi_tinh": "Cái",
@@ -2946,7 +2762,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A1",
     "don_vi_tinh": "Tờ",
@@ -2962,7 +2777,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy A1",
     "don_vi_tinh": "Tờ",
@@ -2978,7 +2792,21 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
+    "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
+    "ten_san_pham": "Giấy biều màu A4 Xanh",
+    "don_vi_tinh": "Tờ",
+    "material_area_code": 7,
+    "material_area_name": "MRO + Consumables",
+    "material_group_code": "7C",
+    "material_group_name": "Consumables - Building & Offices",
+    "material_object_code": "7CA",
+    "material_object_name": "Paper - Giấy",
+    "category": "NGUYÊN VẬT LIỆU KHÁC",
+    "price_per_unit": 300
+  },
+  {
+    "vung_code": "MT",
+    "ten_vung": "Miền Trung",
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy biều màu A4 Xanh",
     "don_vi_tinh": "Tờ",
@@ -2992,25 +2820,8 @@
     "price_per_unit": 0
   },
   {
-    "vung_code": "MT",
-    "ten_vung": "Miền Trung",
-    "ma_ncc": null,
-    "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
-    "ten_san_pham": "Giấy biều màu A4 Xanh",
-    "don_vi_tinh": "Tờ",
-    "material_area_code": 7,
-    "material_area_name": "MRO + Consumables",
-    "material_group_code": "7C",
-    "material_group_name": "Consumables - Building & Offices",
-    "material_object_code": "7CA",
-    "material_object_name": "Paper - Giấy",
-    "category": "NGUYÊN VẬT LIỆU KHÁC",
-    "price_per_unit": 0
-  },
-  {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy biều màu A5 Vàng",
     "don_vi_tinh": null,
@@ -3021,12 +2832,11 @@
     "material_object_code": "7CA",
     "material_object_name": "Paper - Giấy",
     "category": "NGUYÊN VẬT LIỆU KHÁC",
-    "price_per_unit": 0
+    "price_per_unit": 300
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy biều màu A5 Vàng",
     "don_vi_tinh": null,
@@ -3042,7 +2852,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy biều màu A6 Hồng",
     "don_vi_tinh": null,
@@ -3053,12 +2862,11 @@
     "material_object_code": "7CA",
     "material_object_name": "Paper - Giấy",
     "category": "NGUYÊN VẬT LIỆU KHÁC",
-    "price_per_unit": 0
+    "price_per_unit": 300
   },
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy biều màu A6 Hồng",
     "don_vi_tinh": null,
@@ -3074,7 +2882,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "giấy chia file",
     "don_vi_tinh": "Túi",
@@ -3090,7 +2897,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "giấy chia file",
     "don_vi_tinh": "Túi",
@@ -3106,7 +2912,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "giấy chia file nhựa 10 màu",
     "don_vi_tinh": "Túi",
@@ -3122,7 +2927,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "giấy chia file nhựa 10 màu",
     "don_vi_tinh": "Túi",
@@ -3138,7 +2942,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Double A",
     "don_vi_tinh": "Gram",
@@ -3154,7 +2957,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Double A",
     "don_vi_tinh": "Gram",
@@ -3170,7 +2972,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Double A4",
     "don_vi_tinh": "Gram",
@@ -3186,7 +2987,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Double A4",
     "don_vi_tinh": "Gram",
@@ -3202,7 +3002,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy nhớ vàng",
     "don_vi_tinh": "Thếp",
@@ -3218,7 +3017,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy nhớ vàng",
     "don_vi_tinh": "Thếp",
@@ -3234,7 +3032,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Note 3'' x 3''(Pronoti)",
     "don_vi_tinh": "Xấp",
@@ -3250,7 +3047,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Note 3'' x 3''(Pronoti)",
     "don_vi_tinh": "Xấp",
@@ -3266,7 +3062,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy note 5 màu",
     "don_vi_tinh": "Thếp / Túi",
@@ -3282,7 +3077,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy note 5 màu",
     "don_vi_tinh": "Thếp / Túi",
@@ -3298,7 +3092,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Note 5 Màu Màn Film Néon",
     "don_vi_tinh": "Xấp",
@@ -3314,7 +3107,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Giấy Note 5 Màu Màn Film Néon",
     "don_vi_tinh": "Xấp",
@@ -3330,7 +3122,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hồ dán Thiên Long",
     "don_vi_tinh": "Chai",
@@ -3346,7 +3137,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hồ dán Thiên Long",
     "don_vi_tinh": "Chai",
@@ -3362,7 +3152,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hồng",
     "don_vi_tinh": "Tờ",
@@ -3378,7 +3167,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hồng",
     "don_vi_tinh": "Tờ",
@@ -3394,7 +3182,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hộp đựng tài liệu",
     "don_vi_tinh": "Cái",
@@ -3410,7 +3197,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hộp đựng tài liệu",
     "don_vi_tinh": "Cái",
@@ -3426,7 +3212,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Keo dán",
     "don_vi_tinh": "Lọ",
@@ -3442,7 +3227,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Keo dán",
     "don_vi_tinh": "Lọ",
@@ -3458,7 +3242,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Khổ A5",
     "don_vi_tinh": "Quyển / Túi",
@@ -3474,7 +3257,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Khổ A5",
     "don_vi_tinh": "Quyển / Túi",
@@ -3490,7 +3272,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Myclear",
     "don_vi_tinh": "Cái / cái",
@@ -3506,7 +3287,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Myclear",
     "don_vi_tinh": "Cái / cái",
@@ -3522,7 +3302,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Myclear (to)",
     "don_vi_tinh": "Cái",
@@ -3538,7 +3317,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Myclear (to)",
     "don_vi_tinh": "Cái",
@@ -3554,7 +3332,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Máy casino",
     "don_vi_tinh": "Cái / cái",
@@ -3570,7 +3347,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Máy casino",
     "don_vi_tinh": "Cái / cái",
@@ -3586,7 +3362,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong đặc biệt",
     "don_vi_tinh": "Cái",
@@ -3602,7 +3377,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong đặc biệt",
     "don_vi_tinh": "Cái",
@@ -3618,7 +3392,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin 2A - Panasonic (Pin chuột máy tính)",
     "don_vi_tinh": "Viên",
@@ -3634,7 +3407,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin 2A - Panasonic (Pin chuột máy tính)",
     "don_vi_tinh": "Viên",
@@ -3650,7 +3422,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin 3A - Panasonic (Pin Remote TV, máy lạnh)",
     "don_vi_tinh": "Viên",
@@ -3666,7 +3437,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin 3A - Panasonic (Pin Remote TV, máy lạnh)",
     "don_vi_tinh": "Viên",
@@ -3682,7 +3452,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin con thỏ",
     "don_vi_tinh": "Đôi",
@@ -3698,7 +3467,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin con thỏ",
     "don_vi_tinh": "Đôi",
@@ -3714,7 +3482,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sign here",
     "don_vi_tinh": "Cái / Thếp",
@@ -3730,7 +3497,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sign here",
     "don_vi_tinh": "Cái / Thếp",
@@ -3746,7 +3512,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sáp đếm tiền nhiều màu",
     "don_vi_tinh": "Hộp nhỏ",
@@ -3762,7 +3527,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sáp đếm tiền nhiều màu",
     "don_vi_tinh": "Hộp nhỏ",
@@ -3778,7 +3542,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Thước dây 5m",
     "don_vi_tinh": "Cái",
@@ -3794,7 +3557,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Thước dây 5m",
     "don_vi_tinh": "Cái",
@@ -3810,7 +3572,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Thước kẻ",
     "don_vi_tinh": "cái / cây",
@@ -3826,7 +3587,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Thước kẻ",
     "don_vi_tinh": "cái / cây",
@@ -3842,7 +3602,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ticker Tommy 133",
     "don_vi_tinh": "Hộp",
@@ -3858,7 +3617,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Ticker Tommy 133",
     "don_vi_tinh": "Hộp",
@@ -3874,7 +3632,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Tomy",
     "don_vi_tinh": "Thếp / Túi",
@@ -3890,7 +3647,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Tomy",
     "don_vi_tinh": "Thếp / Túi",
@@ -3906,7 +3662,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Túi Nilon đựng hồ sơ (Sơ mi lỗ)",
     "don_vi_tinh": "Tệp",
@@ -3922,7 +3677,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Túi Nilon đựng hồ sơ (Sơ mi lỗ)",
     "don_vi_tinh": "Tệp",
@@ -3938,7 +3692,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Xâu tài liệu (thanh cài nhựa)",
     "don_vi_tinh": "Hộp",
@@ -3954,7 +3707,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Xâu tài liệu (thanh cài nhựa)",
     "don_vi_tinh": "Hộp",
@@ -3970,7 +3722,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "PE",
     "don_vi_tinh": "Cuộn / Cây",
@@ -3986,7 +3737,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH HANOPRO (VIỆT NAM)",
     "ten_san_pham": "PE",
     "don_vi_tinh": "Cuộn / Cây",
@@ -4002,7 +3752,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong bì bưu điện",
     "don_vi_tinh": "Tệp",
@@ -4018,7 +3767,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong bì bưu điện",
     "don_vi_tinh": "Tệp",
@@ -4034,7 +3782,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH TM - DV IN ÁN KHẢI AN",
     "ten_san_pham": "Phong bì lớn",
     "don_vi_tinh": "Cái",
@@ -4050,7 +3797,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH TM - DV IN ÁN KHẢI AN",
     "ten_san_pham": "Phong bì lớn",
     "don_vi_tinh": "Cái",
@@ -4066,7 +3812,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH TM - DV IN ÁN KHẢI AN",
     "ten_san_pham": "Phong bì nhỏ",
     "don_vi_tinh": "Cái",
@@ -4082,7 +3827,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH TM - DV IN ÁN KHẢI AN",
     "ten_san_pham": "Phong bì nhỏ",
     "don_vi_tinh": "Cái",
@@ -4098,7 +3842,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH TM - DV IN ÁN KHẢI AN",
     "ten_san_pham": "Phong bì xám",
     "don_vi_tinh": "Cái",
@@ -4114,7 +3857,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": " CÔNG TY TNHH TM - DV IN ÁN KHẢI AN",
     "ten_san_pham": "Phong bì xám",
     "don_vi_tinh": "Cái",
@@ -4130,7 +3872,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hồ dán",
     "don_vi_tinh": "lốc",
@@ -4146,7 +3887,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hồ dán",
     "don_vi_tinh": "lốc",
@@ -4162,7 +3902,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin AA",
     "don_vi_tinh": null,
@@ -4178,7 +3917,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin AA",
     "don_vi_tinh": null,
@@ -4194,7 +3932,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin AAA",
     "don_vi_tinh": null,
@@ -4210,7 +3947,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Pin AAA",
     "don_vi_tinh": null,
@@ -4226,7 +3962,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Rổ xéo 1 ngăn",
     "don_vi_tinh": "cái",
@@ -4242,7 +3977,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Rổ xéo 1 ngăn",
     "don_vi_tinh": "cái",
@@ -4258,7 +3992,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Thước dây",
     "don_vi_tinh": "cái",
@@ -4274,7 +4007,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Thước dây",
     "don_vi_tinh": "cái",
@@ -4290,7 +4022,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ PT THÀNH CÔNG",
     "ten_san_pham": "Bịch Bóng 18Cm*28Cm",
     "don_vi_tinh": "kg",
@@ -4306,7 +4037,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ PT THÀNH CÔNG",
     "ten_san_pham": "Bịch Bóng 18Cm*28Cm",
     "don_vi_tinh": "kg",
@@ -4322,7 +4052,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Băng dính 2 mặt",
     "don_vi_tinh": "Chiếc / Cái",
@@ -4338,7 +4067,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LÊ NGUYÊN",
     "ten_san_pham": "Băng keo",
     "don_vi_tinh": "Cuộn",
@@ -4354,7 +4082,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LÊ NGUYÊN",
     "ten_san_pham": "Băng Keo ( Trong)",
     "don_vi_tinh": "Cuộn",
@@ -4370,7 +4097,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Băng Keo 2 Mặt 1.6Cm",
     "don_vi_tinh": "Hộp",
@@ -4381,12 +4107,11 @@
     "material_object_code": "4DF",
     "material_object_name": "Tape - Băng dính",
     "category": "BĂNG KEO",
-    "price_per_unit": ""
+    "price_per_unit": null
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LÊ NGUYÊN",
     "ten_san_pham": "Băng keo dễ vỡ",
     "don_vi_tinh": "Cuộn",
@@ -4402,7 +4127,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "HÀ NỘI ĐẶT CHO TOÀN QUỐC",
     "ten_san_pham": "Băng keo Netco",
     "don_vi_tinh": "Cuộn",
@@ -4418,7 +4142,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LÊ NGUYÊN",
     "ten_san_pham": "Băng keo trong",
     "don_vi_tinh": "Cuộn",
@@ -4434,7 +4157,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Dụng cụ cắt băng dính",
     "don_vi_tinh": "Cái",
@@ -4450,7 +4172,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "TÂN TUẤN HOAN",
     "ten_san_pham": "Bao Tải 1,2M * 90Cm",
     "don_vi_tinh": "Cái",
@@ -4466,7 +4187,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LIÊN SƠN",
     "ten_san_pham": "Bill Netco (3 Liên)",
     "don_vi_tinh": "Bộ / Cái",
@@ -4482,7 +4202,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bút bi TL 027",
     "don_vi_tinh": "Cây",
@@ -4493,12 +4212,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": 0
+    "price_per_unit": 7000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bút bi Xanh",
     "don_vi_tinh": "Chiếc",
@@ -4514,7 +4232,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bút chì gỗ GP-01",
     "don_vi_tinh": "Cây",
@@ -4530,7 +4247,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bút Dạ Quang Hl-03",
     "don_vi_tinh": "Cây",
@@ -4546,7 +4262,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bút lông dầu Penta xanh",
     "don_vi_tinh": "Cây",
@@ -4562,7 +4277,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bút xóa CP-02",
     "don_vi_tinh": "Cây",
@@ -4573,12 +4287,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": 0
+    "price_per_unit": 35000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Mực lông dầu Penta xanh",
     "don_vi_tinh": "Chai",
@@ -4589,12 +4302,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "BÚT VIẾT & MỰC",
-    "price_per_unit": 0
+    "price_per_unit": 12000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Mực đổ con dấu Shiny S62./S63",
     "don_vi_tinh": "Chai",
@@ -4610,7 +4322,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Ruy Băng Lq310 Ht (Mực In Kim)",
     "don_vi_tinh": "Hộp",
@@ -4626,7 +4337,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Tem Bacode",
     "don_vi_tinh": "Tem",
@@ -4637,12 +4347,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "DECAL & NHÃN",
-    "price_per_unit": 0
+    "price_per_unit": 90
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Giấy A4 70Gsm Excel",
     "don_vi_tinh": "Gram",
@@ -4658,7 +4367,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Giấy A5 70Gsm Excel",
     "don_vi_tinh": "Gram",
@@ -4674,7 +4382,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "H&H TRADING",
     "ten_san_pham": "Giấy In Nhiệt A6 Khổ 50X100",
     "don_vi_tinh": "Cuộn",
@@ -4685,12 +4392,11 @@
     "material_object_code": "7CA",
     "material_object_name": "Paper - Giấy",
     "category": "GIẤY IN & GIẤY VĂN PHÒNG",
-    "price_per_unit": 0
+    "price_per_unit": 63000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Dao rọc giấy lớn SDI 0423",
     "don_vi_tinh": "Cây",
@@ -4701,12 +4407,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KÉO & DAO",
-    "price_per_unit": 0
+    "price_per_unit": 20000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kéo trung 180",
     "don_vi_tinh": "Cái",
@@ -4717,12 +4422,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KÉO & DAO",
-    "price_per_unit": 0
+    "price_per_unit": 20000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "HỘ KINH DOANH ĐÀO NGỌC LUÂN",
     "ten_san_pham": "Lưỡi Cưa 235mm",
     "don_vi_tinh": "Cái / Lưỡi",
@@ -4738,7 +4442,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Lưỡi Dao Lớn Sdi 1404",
     "don_vi_tinh": "Vĩ",
@@ -4749,12 +4452,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KÉO & DAO",
-    "price_per_unit": 0
+    "price_per_unit": 17000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bấm kim 10 plus",
     "don_vi_tinh": "Cái / cái",
@@ -4770,7 +4472,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kim Bấm No.10 - Plus",
     "don_vi_tinh": "Hộp Nhỏ",
@@ -4781,12 +4482,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 6000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kẹp bướm 15 MM",
     "don_vi_tinh": "Hộp",
@@ -4802,7 +4502,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kẹp Bướm 15mm",
     "don_vi_tinh": "Hộp",
@@ -4813,12 +4512,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 8000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kẹp Bướm 19Mm",
     "don_vi_tinh": "Hộp",
@@ -4829,12 +4527,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 9000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kẹp Bướm 32Mm",
     "don_vi_tinh": "Hộp",
@@ -4845,12 +4542,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 19000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kẹp Bướm 51Mm",
     "don_vi_tinh": "Hộp",
@@ -4861,12 +4557,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 40000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Kẹp Giấy C.62 -\"A\"",
     "don_vi_tinh": "Hộp Nhỏ",
@@ -4877,12 +4572,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": 0
+    "price_per_unit": 7000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Đồ Bấm Kim Plus  No.10 - Chính Hãng",
     "don_vi_tinh": "Cái",
@@ -4893,12 +4587,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "KẸP, KIM, GHIM",
-    "price_per_unit": ""
+    "price_per_unit": 43000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bao Nilon đựng hồ sơ (Sơ mi lỗ)",
     "don_vi_tinh": "Túi",
@@ -4914,7 +4607,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Dây thun bản lớn 120Y cột chứng từ",
     "don_vi_tinh": "Bịch",
@@ -4930,7 +4622,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Dây Thun Xuất Khẩu 333",
     "don_vi_tinh": "Bịch",
@@ -4941,12 +4632,11 @@
     "material_object_code": "7CG",
     "material_object_name": "Stationery (Admin) - Dụng cụ văn phòng phẩm",
     "category": "NGUYÊN VẬT LIỆU KHÁC",
-    "price_per_unit": 0
+    "price_per_unit": 60000
   },
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Giấy Note 3'' x 3''(Pronoti)",
     "don_vi_tinh": "Xấp",
@@ -4962,7 +4652,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Giấy Note 5 Màu Màn Film Néon",
     "don_vi_tinh": "Xấp",
@@ -4978,7 +4667,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Gôm Pentel H.03",
     "don_vi_tinh": "Cái / Viên",
@@ -4994,7 +4682,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Hồ dán Thiên Long",
     "don_vi_tinh": "Chai",
@@ -5010,7 +4697,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Pin 2A - Panasonic (Pin chuột máy tính)",
     "don_vi_tinh": "Viên",
@@ -5026,7 +4712,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Pin 3A - Panasonic (Pin Remote TV, máy lạnh)",
     "don_vi_tinh": "Viên",
@@ -5042,7 +4727,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LÊ NGUYÊN",
     "ten_san_pham": "PE",
     "don_vi_tinh": "Cuộn / Cây",
@@ -5058,7 +4742,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bìa lỗ 4 lạng",
     "don_vi_tinh": "Xấp",
@@ -5074,7 +4757,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VPP MAI ANH",
     "ten_san_pham": "Bìa nút A4 MyClear",
     "don_vi_tinh": "Cái",
@@ -5090,7 +4772,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "KHẢI AN",
     "ten_san_pham": "Phong Bì Lớn ( Xanh)",
     "don_vi_tinh": "Cái",
@@ -5106,7 +4787,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "KHẢI AN",
     "ten_san_pham": "Phong Bì Nhỏ ( Xanh)",
     "don_vi_tinh": "Cái",
@@ -5122,7 +4802,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "KHẢI AN",
     "ten_san_pham": "Phong Bì nhỏ trắng",
     "don_vi_tinh": "Cái",
@@ -5138,7 +4817,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "KHẢI AN",
     "ten_san_pham": "Phong bì xám",
     "don_vi_tinh": "Cái",
@@ -5154,7 +4832,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "VIỄN ĐÔNG",
     "ten_san_pham": "Seal Niêm Phong (Hoàng Phúc)",
     "don_vi_tinh": "Cái / Seal",
@@ -5170,7 +4847,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "Mr Quang, mua từ vựa ve chai gần TT2 cấp cho cả MN",
     "ten_san_pham": "Thùng carton Bình Dương, TT2",
     "don_vi_tinh": "Ký",
@@ -5186,7 +4862,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "KHẢI AN",
     "ten_san_pham": "Bao rác đại",
     "don_vi_tinh": null,
@@ -5202,7 +4877,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "TÂN TUẤN HOAN",
     "ten_san_pham": "Bịch Bóng 17Cm*27Cm",
     "don_vi_tinh": "Kg",
@@ -5218,7 +4892,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "TÂN TUẤN HOAN",
     "ten_san_pham": "Bịch Bóng 25Cm*35Cm",
     "don_vi_tinh": "Kg",
@@ -5234,7 +4907,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "LÊ NGUYÊN",
     "ten_san_pham": "Xốp hơi (Xốp Hạt)",
     "don_vi_tinh": "Cuộn/100m",
@@ -5250,7 +4922,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "MINH PHÁT",
     "ten_san_pham": "Xốp Trắng",
     "don_vi_tinh": "Khối",
@@ -5266,7 +4937,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "THANH TÂM",
     "ten_san_pham": "Gỗ đóng hàng",
     "don_vi_tinh": "- dvt tính thực tế khi đặt hàng: 1 bó/20 thanh\n- hoá đơn NCC xuất bằng sản phẩm pallet, đvt là cái (sẽ cân đối theo số bó để xuất hđ = pallet) / 30 bó/m3",
@@ -5282,7 +4952,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "HỘ KINH DOANH ĐÀO NGỌC LUÂN",
     "ten_san_pham": "Đinh F30",
     "don_vi_tinh": "Hộp",
@@ -5298,7 +4967,6 @@
   {
     "vung_code": "MN",
     "ten_vung": "Miền Nam",
-    "ma_ncc": null,
     "ncc": "TÂN TUẤN HOAN",
     "ten_san_pham": "Bao OPP",
     "don_vi_tinh": "Cái",
@@ -5314,7 +4982,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong bì trắng A6( 12*22cm)",
     "don_vi_tinh": "100 chiếc/tập",
@@ -5330,7 +4997,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong bì trắng A5",
     "don_vi_tinh": "100 chiếc/tập",
@@ -5346,7 +5012,6 @@
   {
     "vung_code": "MT",
     "ten_vung": "Miền Trung",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phong bì trắng A4",
     "don_vi_tinh": "100 chiếc/tập",
@@ -5362,7 +5027,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File mở góc-Bìa Hở A4",
     "don_vi_tinh": "100 chiếc/túi",
@@ -5378,7 +5042,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "File mở góc -Bìa hở F4",
     "don_vi_tinh": "12 chiếc/túi",
@@ -5394,7 +5057,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa Acco giấy 021N",
     "don_vi_tinh": "10 chiếc/túi",
@@ -5410,7 +5072,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A3 Paperone( xanh biển, xanh lá, hồng, vàng)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5426,7 +5087,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A4 PaperOne( xanh biển, xanh lá, hồng, vàng)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5442,7 +5102,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A4 PaperOne trắng",
     "don_vi_tinh": "100 tờ/tập",
@@ -5458,7 +5117,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A4 T&T( xanh biển, xanh lá, hồng, vàng)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5474,7 +5132,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A3 T&T( xanh biển, xanh lá, hồng, vàng)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5490,7 +5147,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A4 màu đậm( đỏ, cam, xanh đậm, vàng đậm…)/ bìa trộn 5 màu",
     "don_vi_tinh": "100 tờ/tập",
@@ -5506,7 +5162,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa màu A3 màu đậm( đỏ, cam, xanh đậm, vàng đậm…)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5522,7 +5177,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mica A4 mỏng( bóng kính)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5538,7 +5192,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mica A4 trung( bóng kính)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5554,7 +5207,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mica A4 dầy( bóng kính)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5570,7 +5222,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mica A3 mỏng( bóng kính)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5586,7 +5237,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mica A3 trung( bóng kính)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5602,7 +5252,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mica A3 dầy( bóng kính)",
     "don_vi_tinh": "100 tờ/tập",
@@ -5618,7 +5267,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Bìa mika A4-mờ",
     "don_vi_tinh": "100 tờ/tập",
@@ -5634,7 +5282,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sổ bìa cứng A5 200t",
     "don_vi_tinh": "64 Quyển/Thùng",
@@ -5650,7 +5297,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sổ bìa cứng A4 thừa đầu 240t",
     "don_vi_tinh": "50 Quyển/Thùng",
@@ -5666,7 +5312,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Sổ bìa cứng A4 không thừa đầu 240t",
     "don_vi_tinh": "50 Quyển/Thùng",
@@ -5682,7 +5327,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt 1F dày",
     "don_vi_tinh": "Chiếc / Cái",
@@ -5698,7 +5342,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt 1.5F dày",
     "don_vi_tinh": "Chiếc / Cái",
@@ -5714,7 +5357,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt 3F dày",
     "don_vi_tinh": "Chiếc / Cái",
@@ -5730,7 +5372,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt 2F dày",
     "don_vi_tinh": "Chiếc / Cái",
@@ -5746,7 +5387,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Băng dính 2 mặt 5F dày",
     "don_vi_tinh": "Chiếc / Cái",
@@ -5762,7 +5402,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng dính cầm tay 100Y-dân hoa",
     "don_vi_tinh": "Cái",
@@ -5778,7 +5417,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng dính cầm tay 200Y-dân hoa",
     "don_vi_tinh": "Cái",
@@ -5794,7 +5432,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng dính để bàn nhỏ 2001",
     "don_vi_tinh": "Cái",
@@ -5810,7 +5447,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng dính cầm tay nhựa sunwood",
     "don_vi_tinh": "Cái",
@@ -5826,7 +5462,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng dính để bàn 2f lõi to",
     "don_vi_tinh": "Cái",
@@ -5842,7 +5477,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Cắt băng dính để bàn 2f lõi nhỏ deli",
     "don_vi_tinh": "Cái",
@@ -5858,7 +5492,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hóa đơn bán lẻ A5 1 liên",
     "don_vi_tinh": "50 quyển/lốc",
@@ -5874,7 +5507,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Hóa đơn bán lẻ A5 2-3 liên 100 tờ",
     "don_vi_tinh": "25 quyển/lốc",
@@ -5890,7 +5522,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu - chi 1 liên",
     "don_vi_tinh": "50 quyển/lốc",
@@ -5906,7 +5537,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu - chi 2-3 liên 60t",
     "don_vi_tinh": "25 quyển/lốc",
@@ -5922,7 +5552,6 @@
   {
     "vung_code": "MB",
     "ten_vung": "Miền Bắc",
-    "ma_ncc": null,
     "ncc": "CÔNG TY TNHH THIẾT BỊ VÀ DỊCH VỤ VĂN PHÒNG ĐỨC MINH",
     "ten_san_pham": "Phiếu thu - chi 2-3 liên 100t",
     "don_vi_tinh": "10 quyển/lốc",
@@ -5934,5 +5563,20 @@
     "material_object_name": "Bill - Bill",
     "category": "BILL & BIÊN NHẬN",
     "price_per_unit": 15000
+  },
+  {
+    "vung_code": "MB",
+    "ten_vung": "Miền Bắc",
+    "ncc": "TÂN TUẤN HOAN",
+    "ten_san_pham": "Bịch Bóng 17Cm*27Cm",
+    "don_vi_tinh": "kg",
+    "material_area_code": 7,
+    "material_area_name": "C-Parts - Production & Packaging Material",
+    "material_group_code": "4D",
+    "material_group_name": "Product Packaging Materials",
+    "material_object_code": "4DD",
+    "material_object_name": "Nilong - Nilong",
+    "category": "VẬT LIỆU ĐÓNG GÓI",
+    "price_per_unit": 60000
   }
 ]
