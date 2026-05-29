@@ -27,15 +27,16 @@ function LoginScreen({ onLogin }) {
       const result = await signInWithPopup(auth, provider);
       const fbUser = result.user;
 
-      // Check if profile exists
+      // Always show setup so user can change org/region
       const snap = await get(ref(db, `users/${fbUser.uid}`));
       if (snap.exists()) {
         const p = snap.val();
-        onLogin({ uid: fbUser.uid, username: p.displayName, vung: p.vung, khuVuc: p.khuVuc, phongBan: p.phongBan, email: fbUser.email });
-      } else {
-        setGoogleUser(fbUser);
-        setStep('setup');
+        setVung(p.vung || '');
+        setKhuVuc(p.khuVuc || '');
+        setPhongBan(p.phongBan || '');
       }
+      setGoogleUser(fbUser);
+      setStep('setup');
     } catch (err) {
       setError('Đăng nhập thất bại. Vui lòng thử lại.');
       console.error(err);

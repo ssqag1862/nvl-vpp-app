@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import * as XLSX from 'xlsx';
 import './App.css';
 import Header from './components/Header';
@@ -7,13 +7,13 @@ import Table from './components/Table';
 import CartPanel from './components/CartPanel';
 import Toast from './components/Toast';
 import LoginScreen from './components/LoginScreen';
-// DropZone removed — catalogue is hardcoded
 import ReportView from './components/ReportView';
+import AdminPanel from './components/AdminPanel';
 import Footer from './components/Footer';
 import RAW_DATA from './data/masterData.json';
 import { REGION_MAP } from './data/orgStructure';
 import { db, auth } from './firebase';
-import { ref, set, get, push } from 'firebase/database';
+import { ref, set, get, push, onValue, off } from 'firebase/database';
 import { onAuthStateChanged, signOut } from 'firebase/auth';
 
 const safeKey = (name) => name.replace(/[.#$/[\]\s]/g, '_');
@@ -47,7 +47,10 @@ function App() {
   const [toast, setToast] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const [showReport, setShowReport] = useState(false);
+  const [showAdmin, setShowAdmin] = useState(false);
   const [orderHistory, setOrderHistory] = useState({});
+  const [overrides, setOverrides] = useState({});
+  const [isAdmin, setIsAdmin] = useState(false);
 
   // Firebase Auth — auto-login returning users
   useEffect(() => {
@@ -66,6 +69,30 @@ function App() {
     });
     return unsub;
   }, []);
+
+  // Check admin status and subscribe to catalogue overrides
+  useEffect(() => {
+    if (!user) {
+      setIsAdmin(false);
+      setOverrides({});
+      return;
+    }
+    get(ref(db, `admins/${user.uid}`)).then(snap => setIsAdmin(snap.exists() && snap.val() === true)).catch(() => {});
+    const overridesRef = ref(db, 'catalogueOverrides');
+    onValue(overridesRef, snap => setOverrides(snap.exists() ? snap.val() : {}));
+    return () => off(overridesRef);
+  }, [user]);
+
+  // Merge static catalogue with any admin overrides
+  const effectiveCatalogue = useMemo(() => {
+    if (Object.keys(overrides).length === 0) return CATALOGUE;
+    const safeK = (name) => name.replace(/[.#$/[\]\s]/g, '_');
+    return CATALOGUE.map(item => {
+      const key = safeK(`${item.vc}|${item.sp}|${item.ncc}`);
+      const ov = overrides[key];
+      return ov ? { ...item, ...ov, editedAt: undefined } : item;
+    });
+  }, [overrides]);
 
   const PAGE_SIZE = 30;
 
@@ -133,9 +160,9 @@ function App() {
     return () => clearTimeout(timer);
   }, [cart, user, cartInitialized]);
 
-  // Apply filters and search against fixed catalogue
+  // Apply filters and search against effective catalogue (with overrides)
   useEffect(() => {
-    let result = CATALOGUE;
+    let result = effectiveCatalogue;
     if (filters.regions.length > 0) result = result.filter(d => filters.regions.includes(d.vc));
     if (filters.categories.length > 0) result = result.filter(d => filters.categories.includes(d.cat));
     if (filters.nccs.length > 0) result = result.filter(d => filters.nccs.includes(d.ncc));
@@ -148,7 +175,7 @@ function App() {
     }
     setFiltered(result);
     setCurrentPage(1);
-  }, [search, filters]);
+  }, [search, filters, effectiveCatalogue]);
 
 
   const handleSubmitRequest = async (note) => {
@@ -198,6 +225,8 @@ function App() {
     setCart([]);
     setCartInitialized(false);
     setShowReport(false);
+    setShowAdmin(false);
+    setIsAdmin(false);
   };
 
   const showToast = (msg) => {
@@ -286,22 +315,48 @@ function App() {
     showToast(`📥 Đã xuất: ${outFile}`);
   };
 
-  const regions = [...new Set(CATALOGUE.map(d => d.vc).filter(Boolean))].sort();
-  const categories = [...new Set(CATALOGUE.map(d => d.cat).filter(Boolean))].sort();
-  const nccs = [...new Set(CATALOGUE.map(d => d.ncc).filter(Boolean))].sort();
+  const regions = [...new Set(effectiveCatalogue.map(d => d.vc).filter(Boolean))].sort();
+  const categories = [...new Set(effectiveCatalogue.map(d => d.cat).filter(Boolean))].sort();
+  const nccs = [...new Set(effectiveCatalogue.map(d => d.ncc).filter(Boolean))].sort();
 
   if (!authChecked) return <div className="app loading-screen"><p className="loading-text">Đang tải...</p></div>;
   if (!user) return <LoginScreen onLogin={handleLogin} />;
+
+  if (showAdmin) {
+    return (
+      <div className="app">
+        <Header
+          catalogue={effectiveCatalogue}
+          user={user}
+          onLogout={handleLogout}
+          showReport={false}
+          onToggleReport={() => { setShowAdmin(false); setShowReport(true); }}
+          isAdmin={isAdmin}
+          onToggleAdmin={() => setShowAdmin(false)}
+          showAdmin={true}
+        />
+        <AdminPanel
+          catalogue={effectiveCatalogue}
+          overrides={overrides}
+          onClose={() => setShowAdmin(false)}
+        />
+        <Footer />
+        <Toast message={toast} />
+      </div>
+    );
+  }
 
   if (showReport) {
     return (
       <div className="app">
         <Header
-          catalogue={CATALOGUE}
+          catalogue={effectiveCatalogue}
           user={user}
           onLogout={handleLogout}
           showReport={showReport}
           onToggleReport={() => setShowReport(false)}
+          isAdmin={isAdmin}
+          onToggleAdmin={() => { setShowReport(false); setShowAdmin(true); }}
         />
         <ReportView />
         <Footer />
@@ -313,11 +368,13 @@ function App() {
   return (
     <div className="app">
       <Header
-        catalogue={CATALOGUE}
+        catalogue={effectiveCatalogue}
         user={user}
         onLogout={handleLogout}
         showReport={showReport}
         onToggleReport={() => setShowReport(true)}
+        isAdmin={isAdmin}
+        onToggleAdmin={() => setShowAdmin(true)}
       />
 
       <div className="main">

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-function Header({ catalogue, user, onLogout, showReport, onToggleReport }) {
+function Header({ catalogue, user, onLogout, showReport, onToggleReport, isAdmin, onToggleAdmin, showAdmin }) {
   return (
     <header className="header">
       <div className="header-left">
@@ -34,6 +34,14 @@ function Header({ catalogue, user, onLogout, showReport, onToggleReport }) {
       </div>
 
       <div className="header-right">
+        {isAdmin && (
+          <button
+            className={`btn ${showAdmin ? 'btn-primary' : 'btn-admin'}`}
+            onClick={onToggleAdmin}
+          >
+            {showAdmin ? '← Catalogue' : '⚙️ Admin'}
+          </button>
+        )}
         <button
           className={`btn ${showReport ? 'btn-primary' : 'btn-report'}`}
           onClick={onToggleReport}
