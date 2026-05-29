@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
 import * as XLSX from 'xlsx';
 import './App.css';
 import Header from './components/Header';
@@ -52,19 +52,23 @@ function App() {
   const [overrides, setOverrides] = useState({});
   const [isAdmin, setIsAdmin] = useState(false);
 
-  // Firebase Auth — auto-login returning users
+  // Only auto-login on initial page load (session restore), not on explicit sign-in.
+  // Without this flag, onAuthStateChanged fires when Google popup completes and
+  // unmounts LoginScreen before the org-selection step can show.
+  const isInitialAuthCheck = useRef(true);
+
   useEffect(() => {
     const unsub = onAuthStateChanged(auth, async (firebaseUser) => {
-      if (firebaseUser) {
+      if (firebaseUser && isInitialAuthCheck.current) {
         const snap = await get(ref(db, `users/${firebaseUser.uid}`));
         if (snap.exists()) {
           const p = snap.val();
           setUser({ uid: firebaseUser.uid, username: p.displayName, vung: p.vung, khuVuc: p.khuVuc, phongBan: p.phongBan, email: firebaseUser.email });
         }
-        // If no profile yet → user stays null → LoginScreen handles setup
-      } else {
+      } else if (!firebaseUser) {
         setUser(null);
       }
+      isInitialAuthCheck.current = false;
       setAuthChecked(true);
     });
     return unsub;
